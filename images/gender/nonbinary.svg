@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
+  <g fill-rule="evenodd">
+    <rect width="800" height="120" fill="#fef433"/>
+    <rect width="800" height="120" y="120" fill="#ffffff"/>
+    <rect width="800" height="120" y="240" fill="#9a59cf"/>
+    <rect width="800" height="120" y="360" fill="#000000"/>
+  </g>
+</svg>
