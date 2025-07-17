@@ -13,6 +13,8 @@ const allFlags = [asexual, transgender];
 
 // If there is no search query, all flag/label objects should be visible
 
+
+// Create a function that executes when the search input is changed
 function search() {
     // Create a selector for the search input
     let searchQuery = document.getElementById("searchInput");
@@ -32,18 +34,17 @@ function search() {
     // Contains the text content of the current label's p element
     let flagName;
 
+    // Iterate through each array member to see which names match the search query
     for (let i = 0; i < flagItem.length; i++) {
         flagLink = flagItem[i].getElementsByTagName("a")[0];
         flagName = flagLink.innerText;
+        // If the label name matches, show it in the display
         if (flagName.toUpperCase().indexOf(filteredSearchQuery) > -1) {
             flagItem[i].style.display = "";
-        } else {
+        }
+        // If the label name doesn't match, hide it from the display
+        else {
             flagItem[i].style.display = "none";
         }
     }
 }
-
-// Create a function that executes when the search input is changed
-// Iterate through each array member to see which names match the search query
-// If the label name doesn't match, hide it from the display
-// Make sure this loops indefinitely, but only searches the currently displayed flags/labels
