@@ -7,32 +7,41 @@ const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-p
 // Create array with an index representing each flag/identity
 const allFlags = [asexual, transgender];
 
-// Create array to be currently shown?
+// Create array to be currently shown
 
 // Create objects for each flag/identity to display to the user
 
 // If there is no search query, all flag/label objects should be visible
 
-// Create a selector for the search input
-let searchQuery = document.getElementById("searchLabels");
+function search() {
+    // Create a selector for the search input
+    let searchQuery = document.getElementById("searchInput");
 
-// Contains the current search query
-let filteredSearchQuery = searchQuery.value.toUpperCase();
+    // Contains the current search query in uppercase letters
+    let filteredSearchQuery = searchQuery.value.toUpperCase();
 
-// ul containing the flags and their labels
-let flagList = document.getElementById("search-results");
+    // ul containing the flags and their labels
+    let flagList = document.getElementById("flagsAndLabels");
 
-// li's contained within the ul of flags and labels
-let flagItem = flagList.getElementsByTagName("li");
+    // li's contained within the flagList ul
+    let flagItem = flagList.getElementsByTagName("li");
+    
+    // Contains the current flagItem's a element
+    let flagLink;
 
-// Contains the current flag and label li's a element
-let flagLink;
+    // Contains the text content of the current label's p element
+    let flagName;
 
-// Contains the p element of the current flag and label's a element
-let flagParagraph;
-
-// Contains the text content of the current label's p element
-let flagName;
+    for (let i = 0; i < flagItem.length; i++) {
+        flagLink = flagItem[i].getElementsByTagName("a")[0];
+        flagName = flagLink.innerText;
+        if (flagName.toUpperCase().indexOf(filteredSearchQuery) > -1) {
+            flagItem[i].style.display = "";
+        } else {
+            flagItem[i].style.display = "none";
+        }
+    }
+}
 
 // Create a function that executes when the search input is changed
 // Iterate through each array member to see which names match the search query
