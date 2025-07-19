@@ -7,12 +7,10 @@ const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-p
 // Create array with an index representing each flag/identity
 const allFlags = [agender, asexual, nonbinary, transgender];
 
-// Create array to be currently shown
-
 // Create objects for each flag/identity to display to the user
 
-// If there is no search query, all flag/label objects should be visible
-
+// Contains the currently checked colors
+let filterColors = [];
 
 const searchBar = document.getElementById("searchInput");
 searchBar.addEventListener("keyup", search);
@@ -35,7 +33,7 @@ function search() {
     // Contains the current flagItem's a element
     let flagLink;
 
-    // Contains the text content of the current label's p element
+    // Contains flagLink's text content
     let flagName;
 
     // Iterate through each array member to see which names match the search query
@@ -124,7 +122,10 @@ function filterByColor(color, colorChecked) {
     let flagLink;
 
     // Executes if the checkbox is checked
-    if (colorChecked.checked == true ) {
+    if (colorChecked.checked == true) {
+        // Add color to filterColors
+        filterColors.push(color);
+
         // Iterates through each flag item
         for (let i = 0; i < flagItems.length; i++) {
             flagLink = flagItems[i].getElementsByTagName("a")[0];
@@ -144,10 +145,26 @@ function filterByColor(color, colorChecked) {
 const uncheckButton = document.getElementById("uncheckAll");
 
 // Executes the uncheckAllColors function when uncheckButton is clicked
-uncheckButton.addEventListener("click", uncheckAllColors);
+uncheckButton.addEventListener("click", () => {
+    resetFilters(true);
+});
 
-// Executes when the uncheckButton is clicked
-function uncheckAllColors() {
+// Resets all color filters
+// Removes all colors from filterColors array and resets checkboxes if deleteAll is true
+function resetFilters(deleteAll) {
+    if (deleteAll) {
+        // Empties the filterColors array
+        filterColors = [];
+        
+        // Selects all checkboxes
+        const checkBoxes = document.getElementsByTagName("input");
+        // Unchecks all the checkboxes
+        for (let i = 0; i < checkBoxes.length; i++) {
+            if (checkBoxes[i].type == "checkbox") {
+                checkBoxes[i].checked = false;
+            }
+        }
+    }
     // ul containing the flags and their labels
     let flagList = document.getElementById("flagsAndLabels");
 
@@ -158,14 +175,5 @@ function uncheckAllColors() {
     for (let i = 0; i < flagItems.length; i++) {
         flagItems[i].style.display = "";
         search();
-    }
-
-    // Selects all checkboxes
-    const checkBoxes = document.getElementsByTagName("input");
-    // Unchecks all the checkboxes
-    for (let i = 0; i < checkBoxes.length; i++) {
-        if (checkBoxes[i].type == "checkbox") {
-            checkBoxes[i].checked = false;
-        }
     }
 }
