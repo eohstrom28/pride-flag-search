@@ -123,6 +123,7 @@ function filterByColor(color, colorChecked) {
     // Contains the current flagItem's a element
     let flagLink;
 
+    // Executes if the checkbox is checked
     if (colorChecked.checked == true ) {
         // Iterates through each flag item
         for (let i = 0; i < flagItems.length; i++) {
@@ -132,6 +133,10 @@ function filterByColor(color, colorChecked) {
                 flagItems[i].style.display = "none";
             }
         }
+    }
+    // Executes if the checkbox is not checked
+    else {
+        
     }
 }
 
