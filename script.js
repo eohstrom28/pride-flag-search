@@ -57,63 +57,63 @@ function search() {
 const whiteCheckbox = document.getElementById("white");
 
 // Executes the filterByColor function when whiteCheckbox is clicked
-whiteCheckbox.addEventListener("click", () => filterByColor("white"));
+whiteCheckbox.addEventListener("click", () => filterByColor("white", whiteCheckbox));
 
 // Selects the checkbox for the color pink
 const pinkCheckbox = document.getElementById("pink");
 
 // Executes the filterByColor function when pinkCheckbox is clicked
-pinkCheckbox.addEventListener("click", () => filterByColor("pink"));
+pinkCheckbox.addEventListener("click", () => filterByColor("pink", pinkCheckbox));
 
 // Selects the checkbox for the color red
 const redCheckbox = document.getElementById("red");
 
 // Executes the filterByColor function when redCheckbox is clicked
-redCheckbox.addEventListener("click", () => filterByColor("red"));
+redCheckbox.addEventListener("click", () => filterByColor("red", redCheckbox));
 
 // Selects the checkbox for the color orange
 const orangeCheckbox = document.getElementById("orange");
 
 // Executes the filterByColor function when orangeCheckbox is clicked
-orangeCheckbox.addEventListener("click", () => filterByColor("orange"));
+orangeCheckbox.addEventListener("click", () => filterByColor("orange", orangeCheckbox));
 
 // Selects the checkbox for the color yellow
 const yellowCheckbox = document.getElementById("yellow");
 
 // Executes the filterByColor function when yellowCheckbox is clicked
-yellowCheckbox.addEventListener("click", () => filterByColor("yellow"));
+yellowCheckbox.addEventListener("click", () => filterByColor("yellow", yellowCheckbox));
 
 // Selects the checkbox for the color green
 const greenCheckbox = document.getElementById("green");
 
 // Executes the filterByColor function when greenCheckbox is clicked
-greenCheckbox.addEventListener("click", () => filterByColor("green"));
+greenCheckbox.addEventListener("click", () => filterByColor("green", greenCheckbox));
 
 // Selects the checkbox for the color blue
 const blueCheckbox = document.getElementById("blue");
 
 // Executes the filterByColor function when blueCheckbox is clicked
-blueCheckbox.addEventListener("click", () => filterByColor("blue"));
+blueCheckbox.addEventListener("click", () => filterByColor("blue", blueCheckbox));
 
 // Selects the checkbox for the color purple
 const purpleCheckbox = document.getElementById("purple");
 
 // Executes the filterByColor function when purpleCheckbox is clicked
-purpleCheckbox.addEventListener("click", () => filterByColor("purple"));
+purpleCheckbox.addEventListener("click", () => filterByColor("purple", purpleCheckbox));
 
 // Selects the checkbox for the color gray
 const grayCheckbox = document.getElementById("gray");
 
 // Executes the filterByColor function when grayCheckbox is clicked
-grayCheckbox.addEventListener("click", () => filterByColor("gray"));
+grayCheckbox.addEventListener("click", () => filterByColor("gray", grayCheckbox));
 
 // Selects the checkbox for the color black
 const blackCheckbox = document.getElementById("black");
 
 // Executes the filterByColor function when blackCheckbox is clicked
-blackCheckbox.addEventListener("click", () => filterByColor("black"));
+blackCheckbox.addEventListener("click", () => filterByColor("black", blackCheckbox));
 
-function filterByColor(color) {
+function filterByColor(color, colorChecked) {
     // ul containing the flags and their labels
     let flagList = document.getElementById("flagsAndLabels");
 
@@ -123,12 +123,14 @@ function filterByColor(color) {
     // Contains the current flagItem's a element
     let flagLink;
 
-    // Iterates through each flag item
-    for (let i = 0; i < flagItems.length; i++) {
-        flagLink = flagItems[i].getElementsByTagName("a")[0];
-        // Hides the flag item if it does not have the specified color
-        if (!flagLink.classList.contains(color)) {
-            flagItems[i].style.display = "none";
+    if (colorChecked.checked == true ) {
+        // Iterates through each flag item
+        for (let i = 0; i < flagItems.length; i++) {
+            flagLink = flagItems[i].getElementsByTagName("a")[0];
+            // Hides the flag item if it does not have the specified color
+            if (!flagLink.classList.contains(color)) {
+                flagItems[i].style.display = "none";
+            }
         }
     }
 }
