@@ -52,8 +52,35 @@ function search() {
     }
 }
 
+const whiteCheckbox = document.getElementById("white");
+whiteCheckbox.addEventListener("click", () => filterByColor("white"));
+
+const pinkCheckbox = document.getElementById("pink");
+pinkCheckbox.addEventListener("click", () => filterByColor("pink"));
+
+const redCheckbox = document.getElementById("red");
+redCheckbox.addEventListener("click", () => filterByColor("red"));
+
+const orangeCheckbox = document.getElementById("orange");
+orangeCheckbox.addEventListener("click", () => filterByColor("orange"));
+
+const yellowCheckbox = document.getElementById("yellow");
+yellowCheckbox.addEventListener("click", () => filterByColor("yellow"));
+
+const greenCheckbox = document.getElementById("green");
+greenCheckbox.addEventListener("click", () => filterByColor("green"));
+
+const blueCheckbox = document.getElementById("blue");
+blueCheckbox.addEventListener("click", () => filterByColor("blue"));
+
 const purpleCheckbox = document.getElementById("purple");
 purpleCheckbox.addEventListener("click", () => filterByColor("purple"));
+
+const grayCheckbox = document.getElementById("gray");
+grayCheckbox.addEventListener("click", () => filterByColor("gray"));
+
+const blackCheckbox = document.getElementById("black");
+blackCheckbox.addEventListener("click", () => filterByColor("black"));
 
 function filterByColor(color) {
     // ul containing the flags and their labels
