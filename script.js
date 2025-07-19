@@ -51,3 +51,21 @@ function search() {
         }
     }
 }
+
+function filterByColor(color) {
+    // ul containing the flags and their labels
+    let flagList = document.getElementById("flagsAndLabels");
+
+    // li's contained within the flagList ul
+    let flagItems = flagList.getElementsByTagName("li");
+    
+    // Contains the current flagItem's a element
+    let flagLink;
+
+    for (let i = 0; i < flagItems.length; i++) {
+        flagLink = flagItems[i].getElementsByTagName("a")[0];
+        if (!flagLink.classList.contains(color)) {
+            flagItems[i].style.display = "none";
+        }
+    }
+}
