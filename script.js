@@ -1,11 +1,11 @@
-// How do I implement a search that displays only the pride flags with labels that match the search query?
-
 // Create arrays to hold each flag's name, image path, and page path
+const agender = ["agender", "./images/gender/agender.svg", "./flag-pages/agender.html"];
 const asexual = ["asexual", "./images/sexual-attraction/asexual.svg", "./flag-pages/asexual.html"];
-const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-pages/transgender.html"]
+const nonbinary = ["nonbinary", "./images/gender/nonbinary.svg", "./flag-pages/nonbinary.html"]
+const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-pages/transgender.html"];
 
 // Create array with an index representing each flag/identity
-const allFlags = [asexual, transgender];
+const allFlags = [agender, asexual, nonbinary, transgender];
 
 // Create array to be currently shown
 
@@ -26,7 +26,7 @@ function search() {
     let flagList = document.getElementById("flagsAndLabels");
 
     // li's contained within the flagList ul
-    let flagItem = flagList.getElementsByTagName("li");
+    let flagItems = flagList.getElementsByTagName("li");
     
     // Contains the current flagItem's a element
     let flagLink;
@@ -35,16 +35,16 @@ function search() {
     let flagName;
 
     // Iterate through each array member to see which names match the search query
-    for (let i = 0; i < flagItem.length; i++) {
-        flagLink = flagItem[i].getElementsByTagName("a")[0];
+    for (let i = 0; i < flagItems.length; i++) {
+        flagLink = flagItems[i].getElementsByTagName("a")[0];
         flagName = flagLink.innerText;
         // If the label name matches, show it in the display
         if (flagName.toUpperCase().indexOf(filteredSearchQuery) > -1) {
-            flagItem[i].style.display = "";
+            flagItems[i].style.display = "";
         }
         // If the label name doesn't match, hide it from the display
         else {
-            flagItem[i].style.display = "none";
+            flagItems[i].style.display = "none";
         }
     }
 }
