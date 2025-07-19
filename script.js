@@ -17,6 +17,7 @@ const allFlags = [agender, asexual, nonbinary, transgender];
 const searchBar = document.getElementById("searchInput");
 searchBar.addEventListener("keyup", search);
 
+// TODO: make sure search doesn't override filters
 // Create a function that executes when the search input is changed
 function search() {
     // Create a selector for the search input
@@ -52,34 +53,64 @@ function search() {
     }
 }
 
+// Selects the checkbox for the color white
 const whiteCheckbox = document.getElementById("white");
+
+// Executes the filterByColor function when whiteCheckbox is clicked
 whiteCheckbox.addEventListener("click", () => filterByColor("white"));
 
+// Selects the checkbox for the color pink
 const pinkCheckbox = document.getElementById("pink");
+
+// Executes the filterByColor function when pinkCheckbox is clicked
 pinkCheckbox.addEventListener("click", () => filterByColor("pink"));
 
+// Selects the checkbox for the color red
 const redCheckbox = document.getElementById("red");
+
+// Executes the filterByColor function when redCheckbox is clicked
 redCheckbox.addEventListener("click", () => filterByColor("red"));
 
+// Selects the checkbox for the color orange
 const orangeCheckbox = document.getElementById("orange");
+
+// Executes the filterByColor function when orangeCheckbox is clicked
 orangeCheckbox.addEventListener("click", () => filterByColor("orange"));
 
+// Selects the checkbox for the color yellow
 const yellowCheckbox = document.getElementById("yellow");
+
+// Executes the filterByColor function when yellowCheckbox is clicked
 yellowCheckbox.addEventListener("click", () => filterByColor("yellow"));
 
+// Selects the checkbox for the color green
 const greenCheckbox = document.getElementById("green");
+
+// Executes the filterByColor function when greenCheckbox is clicked
 greenCheckbox.addEventListener("click", () => filterByColor("green"));
 
+// Selects the checkbox for the color blue
 const blueCheckbox = document.getElementById("blue");
+
+// Executes the filterByColor function when blueCheckbox is clicked
 blueCheckbox.addEventListener("click", () => filterByColor("blue"));
 
+// Selects the checkbox for the color purple
 const purpleCheckbox = document.getElementById("purple");
+
+// Executes the filterByColor function when purpleCheckbox is clicked
 purpleCheckbox.addEventListener("click", () => filterByColor("purple"));
 
+// Selects the checkbox for the color gray
 const grayCheckbox = document.getElementById("gray");
+
+// Executes the filterByColor function when grayCheckbox is clicked
 grayCheckbox.addEventListener("click", () => filterByColor("gray"));
 
+// Selects the checkbox for the color black
 const blackCheckbox = document.getElementById("black");
+
+// Executes the filterByColor function when blackCheckbox is clicked
 blackCheckbox.addEventListener("click", () => filterByColor("black"));
 
 function filterByColor(color) {
@@ -104,6 +135,7 @@ function filterByColor(color) {
 
 // Selects the uncheckAll button
 const uncheckButton = document.getElementById("uncheckAll");
+
 // Executes the uncheckAllColors function when uncheckButton is clicked
 uncheckButton.addEventListener("click", uncheckAllColors);
 
@@ -121,8 +153,9 @@ function uncheckAllColors() {
         search();
     }
 
-    // Unchecks all the checkboxes
+    // Selects all checkboxes
     const checkBoxes = document.getElementsByTagName("input");
+    // Unchecks all the checkboxes
     for (let i = 0; i < checkBoxes.length; i++) {
         if (checkBoxes[i].type == "checkbox") {
             checkBoxes[i].checked = false;
