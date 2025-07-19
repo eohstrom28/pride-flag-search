@@ -14,7 +14,7 @@ const allFlags = [agender, asexual, nonbinary, transgender];
 // If there is no search query, all flag/label objects should be visible
 
 
-let searchBar = document.getElementById("searchInput");
+const searchBar = document.getElementById("searchInput");
 searchBar.addEventListener("keyup", search);
 
 // Create a function that executes when the search input is changed
@@ -51,6 +51,9 @@ function search() {
         }
     }
 }
+
+const purpleCheckbox = document.getElementById("purple");
+purpleCheckbox.addEventListener("click", () => filterByColor("purple"));
 
 function filterByColor(color) {
     // ul containing the flags and their labels
