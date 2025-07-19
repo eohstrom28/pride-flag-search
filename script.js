@@ -92,10 +92,40 @@ function filterByColor(color) {
     // Contains the current flagItem's a element
     let flagLink;
 
+    // Iterates through each flag item
     for (let i = 0; i < flagItems.length; i++) {
         flagLink = flagItems[i].getElementsByTagName("a")[0];
+        // Hides the flag item if it does not have the specified color
         if (!flagLink.classList.contains(color)) {
             flagItems[i].style.display = "none";
+        }
+    }
+}
+
+// Selects the uncheckAll button
+const uncheckButton = document.getElementById("uncheckAll");
+// Executes the uncheckAllColors function when uncheckButton is clicked
+uncheckButton.addEventListener("click", uncheckAllColors);
+
+// Executes when the uncheckButton is clicked
+function uncheckAllColors() {
+    // ul containing the flags and their labels
+    let flagList = document.getElementById("flagsAndLabels");
+
+    // li's contained within the flagList ul
+    let flagItems = flagList.getElementsByTagName("li");
+
+    // Puts all flags back in the display as long as they match the search query
+    for (let i = 0; i < flagItems.length; i++) {
+        flagItems[i].style.display = "";
+        search();
+    }
+
+    // Unchecks all the checkboxes
+    const checkBoxes = document.getElementsByTagName("input");
+    for (let i = 0; i < checkBoxes.length; i++) {
+        if (checkBoxes[i].type == "checkbox") {
+            checkBoxes[i].checked = false;
         }
     }
 }
