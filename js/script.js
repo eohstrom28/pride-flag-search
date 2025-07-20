@@ -137,7 +137,7 @@ function filterByColor(color, colorChecked) {
     }
     // Executes if the checkbox is not checked
     else {
-        
+       
     }
 }
 
@@ -174,6 +174,6 @@ function resetFilters(deleteAll) {
     // Puts all flags back in the display as long as they match the search query
     for (let i = 0; i < flagItems.length; i++) {
         flagItems[i].style.display = "";
-        search();
     }
+    search();
 }
