@@ -10,15 +10,14 @@ const allFlags = [agender, asexual, nonbinary, transgender];
 // Create objects for each flag/identity to display to the user
 
 // Contains the currently checked colors
-let filterColors = [];
+let filterColors = new Set();
 
 const searchBar = document.getElementById("searchInput");
 searchBar.addEventListener("keyup", search);
 
-// TODO: make sure search doesn't override filters
-// Create a function that executes when the search input is changed
+// Executes when the search input is changed
 function search() {
-    // Create a selector for the search input
+    // Creates a selector for the search input
     let searchQuery = document.getElementById("searchInput");
 
     // Contains the current search query in uppercase letters
@@ -36,7 +35,7 @@ function search() {
     // Contains flagLink's text content
     let flagName;
 
-    // Iterate through each array member to see which names match the search query
+    // Iterate through each flagItem member to see which names match the search query
     for (let i = 0; i < flagItems.length; i++) {
         flagLink = flagItems[i].getElementsByTagName("a")[0];
         flagName = flagLink.innerText;
@@ -49,6 +48,11 @@ function search() {
             flagItems[i].style.display = "none";
         }
     }
+
+    // Applies color filters to the search query
+    filterColors.forEach(function(i) {
+        filterByColor(i, {checked:true});
+    });
 }
 
 // Selects the checkbox for the color white
@@ -124,37 +128,46 @@ function filterByColor(color, colorChecked) {
     // Executes if the checkbox is checked
     if (colorChecked.checked == true) {
         // Add color to filterColors
-        filterColors.push(color);
+        filterColors.add(color);
 
         // Iterates through each flag item
         for (let i = 0; i < flagItems.length; i++) {
             flagLink = flagItems[i].getElementsByTagName("a")[0];
+            
             // Hides the flag item if it does not have the specified color
             if (!flagLink.classList.contains(color)) {
                 flagItems[i].style.display = "none";
             }
         }
     }
-    // Executes if the checkbox is not checked
     else {
-       
+        // Removes the color from the filterColors set
+        filterColors.delete(color);
+
+        // Resets the filters
+        resetFilters(false);
+
+        // Applies all current color filters
+        filterColors.forEach(function(i) {
+            filterByColor(i, {checked:true});
+        });
     }
 }
 
 // Selects the uncheckAll button
 const uncheckButton = document.getElementById("uncheckAll");
 
-// Executes the uncheckAllColors function when uncheckButton is clicked
+// Executes the resetFilters function when uncheckButton is clicked
 uncheckButton.addEventListener("click", () => {
     resetFilters(true);
 });
 
 // Resets all color filters
-// Removes all colors from filterColors array and resets checkboxes if deleteAll is true
+// Removes all colors from filterColors set and resets checkboxes if deleteAll is true
 function resetFilters(deleteAll) {
     if (deleteAll) {
-        // Empties the filterColors array
-        filterColors = [];
+        // Empties the filterColors set
+        filterColors.clear();
         
         // Selects all checkboxes
         const checkBoxes = document.getElementsByTagName("input");
@@ -172,8 +185,5 @@ function resetFilters(deleteAll) {
     let flagItems = flagList.getElementsByTagName("li");
 
     // Puts all flags back in the display as long as they match the search query
-    for (let i = 0; i < flagItems.length; i++) {
-        flagItems[i].style.display = "";
-    }
     search();
 }
