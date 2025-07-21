@@ -2,10 +2,11 @@
 const agender = ["agender", "./images/gender/agender.svg", "./flag-pages/agender.html"];
 const asexual = ["asexual", "./images/sexual-attraction/asexual.svg", "./flag-pages/asexual.html"];
 const nonbinary = ["nonbinary", "./images/gender/nonbinary.svg", "./flag-pages/nonbinary.html"]
+const pansexual = ["pansexual", "./images/sexual-attraction/pansexual.svg", "./flag-pages/pansexual.html"]
 const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-pages/transgender.html"];
 
 // Create array with an index representing each flag/identity
-const allFlags = [agender, asexual, nonbinary, transgender];
+const allFlags = [agender, asexual, nonbinary, pansexual, transgender];
 
 // Create objects for each flag/identity to display to the user
 
@@ -56,7 +57,8 @@ function search() {
 let filterColors = new Set();
 
 // Array containing every checkbox color
-const checkboxColors = ["white", "pink", "red", "orange", "yellow", "green", "blue", "purple", "gray", "black"];
+const checkboxColors = ["white", "pink", "red", "orange", "yellow", "green", "blue", "purple", "brown", "gray",
+    "black"];
 
 // Create an event listener for every color checkbox to call filterByColor on click
 for (let i = 0; i < checkboxColors.length; i++) {
