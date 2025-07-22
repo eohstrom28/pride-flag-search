@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 400 310">
+  <defs>
+    <path id="a" d="M0 0l130 225L260 0z"/>
+  </defs>
+  <use xlink:href="#a" transform="translate(5 5)" fill="#f6c"/>
+  <use xlink:href="#a" transform="translate(135 80)" fill="#00f"/>
+  <use xlink:href="#a" transform="matrix(.33333 0 0 .33333 135 80)" fill="#9c20ea"/>
+</svg>
