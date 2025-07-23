@@ -1,6 +1,9 @@
 // Create arrays to hold each flag's name, image path, and page path
 const agender = ["agender", "./images/gender/agender.svg", "./flag-pages/agender.html"];
 const asexual = ["asexual", "./images/sexual-attraction/asexual.svg", "./flag-pages/asexual.html"];
+
+// Add bisexual, 8-stripe, 7-stripe, and 6-stripe pride flags
+
 const nonbinary = ["nonbinary", "./images/gender/nonbinary.svg", "./flag-pages/nonbinary.html"]
 const pansexual = ["pansexual", "./images/sexual-attraction/pansexual.svg", "./flag-pages/pansexual.html"]
 const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-pages/transgender.html"];
