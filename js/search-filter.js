@@ -51,9 +51,7 @@ function search() {
     }
 
     // Applies color filters to the search query
-    filterColors.forEach(function(i) {
-        filterByColor(i, {checked:true});
-    });
+    applyColorFilters();
 }
 
 // Contains the currently checked colors
@@ -100,12 +98,10 @@ function filterByColor(color, colorChecked) {
         filterColors.delete(color);
 
         // Resets the filters
-        resetFilters(false);
+        resetColorFilters(false);
 
         // Applies all current color filters
-        filterColors.forEach(function(i) {
-            filterByColor(i, {checked:true});
-        });
+        applyColorFilters();
     }
 }
 
@@ -114,12 +110,19 @@ const uncheckButton = document.getElementById("uncheckAll");
 
 // Executes the resetFilters function when uncheckButton is clicked
 uncheckButton.addEventListener("click", () => {
-    resetFilters(true);
+    resetColorFilters(true);
 });
+
+// Applies all current color filters
+function applyColorFilters() {
+    filterColors.forEach(function(i) {
+        filterByColor(i, {checked:true});
+    });
+}
 
 // Resets all color filters
 // Removes all colors from filterColors set and resets checkboxes if deleteAll is true
-function resetFilters(deleteAll) {
+function resetColorFilters(deleteAll) {
     if (deleteAll) {
         // Empties the filterColors set
         filterColors.clear();
