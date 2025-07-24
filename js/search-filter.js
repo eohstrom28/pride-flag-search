@@ -13,7 +13,9 @@ const allFlags = [agender, asexual, nonbinary, pansexual, transgender];
 
 // Create objects for each flag/identity to display to the user
 
+// Selects the search input element
 const searchBar = document.getElementById("searchInput");
+// Runs the search function when a key is pressed
 searchBar.addEventListener("keyup", search);
 
 // Executes when the search input is changed
@@ -52,6 +54,9 @@ function search() {
 
     // Applies color filters to the search query
     applyColorFilters();
+
+    // Applies the stripe filter to the search query
+    applyStripesFilter();
 }
 
 // Contains the currently checked colors
@@ -66,7 +71,6 @@ for (let i = 0; i < checkboxColors.length; i++) {
     let element = document.getElementById(checkboxColors[i]);
     element.addEventListener("click", () => filterByColor(checkboxColors[i], element));
 }
-
 
 function filterByColor(color, colorChecked) {
     // ul containing the flags and their labels
@@ -102,6 +106,9 @@ function filterByColor(color, colorChecked) {
 
         // Applies all current color filters
         applyColorFilters();
+
+        // Applies the current stripe filter
+        applyStripesFilter();
     }
 }
 
@@ -137,6 +144,76 @@ function resetColorFilters(deleteAll) {
         }
     }
 
-    // Puts all flags back in the display as long as they match the search query
+    // Puts all flags back in the display as long as they match the search query and filters
+    search();
+}
+
+// Selects stripes input element
+const stripes = document.getElementById("stripes");
+// Runs filterByStripes when input is changed
+stripes.addEventListener("input", filterByStripes);
+
+function filterByStripes() {
+    // Holds the current value of the stripes input element
+    let numberStripes = stripes.value;
+
+    // Resets the stripes filter if there is no input
+    if (numberStripes == "") {
+        resetStripesFilter();
+    }
+    // Applies the stripes filter if there is an input
+    else {
+        applyStripesFilter();
+    }
+    // Applies search and color filters
+    search();
+}
+
+// Applies the current stripes filter
+function applyStripesFilter() {
+    // Holds the current value of the stripes input element
+    let numberStripes = stripes.value;
+
+
+    // Does nothing if the current stripes input is empty
+    if (numberStripes == "") {
+        return;
+    }
+
+    // ul containing the flags and their labels
+    let flagList = document.getElementById("flagsAndLabels");
+
+    // li's contained within the flagList ul
+    let flagItems = flagList.getElementsByTagName("li");
+    
+    // Contains the current flagItem's a element
+    let flagLink;
+
+
+    // Iterates through each flag item
+    for (let i = 0; i < flagItems.length; i++) {
+        flagLink = flagItems[i].getElementsByTagName("a")[0];
+        
+        // Hides the flag item if it does not have the specified stripe number
+        if (!flagLink.classList.contains(numberStripes)) {
+            flagItems[i].style.display = "none";
+        }
+    }
+}
+
+// Removes the stripe filter
+function resetStripesFilter() {
+    // ul containing the flags and their labels
+    let flagList = document.getElementById("flagsAndLabels");
+
+    // li's contained within the flagList ul
+    let flagItems = flagList.getElementsByTagName("li");
+
+    // Puts all flags back into the display
+    for (let i = 0; i < flagItems.length; i++) {
+        flagItems[i].style.display = "";
+    }
+    
+    // Puts all flags back in the display as long as they match the search query and filters
     search();
 }
