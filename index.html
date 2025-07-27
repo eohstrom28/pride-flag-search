@@ -23,83 +23,91 @@
             website, <a href="https://forms.gle/AtqYgdWrdq4sZ2826">please fill out the suggestion form</a>.
         </p>
         <section>
-            <label for="searchInput">Search for an identity:</label>
-            <input type="text" id="searchInput" placeholder="asexual">
+            <div id="search">
+                <label for="searchInput">Search for an identity:</label>
+                <input type="text" id="searchInput" placeholder="asexual">
+            </div>
             
             <br>
-            <input type="checkbox" id="white">
-            <label for="white">White</label>
-            <input type="checkbox" id="pink">
-            <label for="pink">Pink</label>
-            <input type="checkbox" id="red">
-            <label for="red">Red</label>
-            <input type="checkbox" id="orange">
-            <label for="orange">Orange</label>
-            <input type="checkbox" id="yellow">
-            <label for="yellow">Yellow</label>
-            <input type="checkbox" id="green">
-            <label for="green">Green</label>
-            <input type="checkbox" id="blue">
-            <label for="blue">Blue</label>
-            <input type="checkbox" id="purple">
-            <label for="purple">Purple</label>
-            <input type="checkbox" id="brown">
-            <label for="brown">Brown</label>
-            <input type="checkbox" id="gray">
-            <label for="gray">Gray</label>
-            <input type="checkbox" id="black">
-            <label for="black">Black</label>
-            <button id="uncheckAll">Remove all color filters</button>
+            <div id="filters">
+            <div id="color-filters">
+                <input type="checkbox" id="white">
+                <label for="white">White</label>
+                <input type="checkbox" id="pink">
+                <label for="pink">Pink</label>
+                <input type="checkbox" id="red">
+                <label for="red">Red</label>
+                <input type="checkbox" id="orange">
+                <label for="orange">Orange</label>
+                <input type="checkbox" id="yellow">
+                <label for="yellow">Yellow</label>
+                <input type="checkbox" id="green">
+                <label for="green">Green</label>
+                <input type="checkbox" id="blue">
+                <label for="blue">Blue</label>
+                <input type="checkbox" id="purple">
+                <label for="purple">Purple</label>
+                <input type="checkbox" id="brown">
+                <label for="brown">Brown</label>
+                <input type="checkbox" id="gray">
+                <label for="gray">Gray</label>
+                <input type="checkbox" id="black">
+                <label for="black">Black</label>
+                <button id="uncheckAll">Remove all color filters</button>
+            </div>
 
             <br>
-            <label for="stripes">Stripes: </label>
-            <input type="number" id="stripes" min="0" max="8">
+            <div id="stripes-filter">
+                <label for="stripes">Stripes: </label>
+                <input type="number" id="stripes" placeholder="number" min="0" max="8">
+            </div>
+            </div>
 
             <!--TODO: add additional filter options button (shapes)-->
 
             <ul id="flagsAndLabels">
                 <li><a href="./flag-pages/pride/rainbow.html" class="red orange yellow green blue purple 6">
                     <img src="./images/pride/rainbow.svg"
-                    alt="The 6-stripe rainbow pride flag" width="200px">6-Stripe Pride Flag</a></li>
+                    alt="The 6-stripe rainbow pride flag" width="200px"><br>6-Stripe Pride Flag</a></li>
                 <li><a href="./flag-pages/pride/rainbow.html" class="red orange yellow green blue purple 7">
                     <img src="./images/pride/7-stripe-rainbow.svg"
-                    alt="The 7-stripe rainbow pride flag" width="200px">7-Stripe Pride Flag</a></li>
+                    alt="The 7-stripe rainbow pride flag" width="200px"><br>7-Stripe Pride Flag</a></li>
                 <li><a href="./flag-pages/pride/rainbow.html" class="pink red orange yellow green blue purple 8">
                     <img src="./images/pride/original-rainbow.svg"
-                    alt="The 8-stripe rainbow pride flag" width="200px">8-Stripe Pride Flag</a></li>
+                    alt="The 8-stripe rainbow pride flag" width="200px"><br>8-Stripe Pride Flag</a></li>
                 <li><a href="./flag-pages/genders/agender.html" class="black gray white green 7">
                     <img src="./images/genders/agender/agender.svg" 
-                    alt="The agender pride flag" width="200px">Agender</a></li>
+                    alt="The agender pride flag" width="200px"><br>Agender</a></li>
                 <li><a href="./flag-pages/genders/agender.html" class="black gray white green 4">
                     <img src="./images/genders/agender/alternate-agender.svg" 
-                    alt="An alternate agender pride flag" width="200px">Agender (alternate)</a></li>
+                    alt="An alternate agender pride flag" width="200px"><br>Agender (alternate)</a></li>
                 <li><a href="./flag-pages/romantic-orientations/aromantic.html" class="green white gray black 5">
                     <img src="./images/romantic-orientations/aromantic/aromantic.svg"
-                    alt="The current aromantic pride flag" width="200px">Aromantic</a></li>
+                    alt="The current aromantic pride flag" width="200px"><br>Aromantic</a></li>
                 <li><a href="./flag-pages/romantic-orientations/aromantic.html" class="green yellow orange black 4">
                     <img src="./images/romantic-orientations/aromantic/original-aromantic.svg"
-                    alt="The original aromantic pride flag" width="200px">Aromantic (old)</a></li>
+                    alt="The original aromantic pride flag" width="200px"><br>Aromantic (old)</a></li>
                 <li><a href="./flag-pages/romantic-orientations/aromantic.html" class="green yellow gray black 5">
                     <img src="./images/romantic-orientations/aromantic/second-aromantic.svg"
-                    alt="The second aromantic pride flag" width="200px">Aromantic (old)</a></li>
+                    alt="The second aromantic pride flag" width="200px"><br>Aromantic (old)</a></li>
                 <li><a href="./flag-pages/sexual-orientations/asexual.html" class="black gray white purple 4">
                     <img src="./images/sexual-orientations/asexual/asexual.svg"
-                    alt="The asexual pride flag" width="200px">Asexual</a></li>
+                    alt="The asexual pride flag" width="200px"><br>Asexual</a></li>
                 <li><a href="./flag-pages/sexual-orientations/bisexual.html" class="pink blue purple 3">
                     <img src="./images/sexual-orientations/bisexual/bisexual.svg"
-                    alt="The bisexual pride flag" width="200px">Bisexual</a></li>
+                    alt="The bisexual pride flag" width="200px"><br>Bisexual</a></li>
                 <li><a href="./flag-pages/genders/genderfluid.html" class="pink white purple black blue 5">
                     <img src="./images/genders/genderfluid.svg"
-                    alt="The genderfluid pride flag" width="200px">Genderfluid</a></li>
+                    alt="The genderfluid pride flag" width="200px"><br>Genderfluid</a></li>
                 <li><a href="./flag-pages/genders/nonbinary.html" class="yellow white purple black 4">
                     <img src="./images/genders/nonbinary.svg"
-                    alt="The nonbinary pride flag" width="200px">Nonbinary</a></li>
+                    alt="The nonbinary pride flag" width="200px"><br>Nonbinary</a></li>
                 <li><a href="./flag-pages/sexual-orientations/pansexual.html" class="pink yellow blue 3">
                     <img src="./images/sexual-orientations/pansexual.svg"
-                    alt="The pansexual pride flag" width="200px">Pansexual</a></li>
+                    alt="The pansexual pride flag" width="200px"><br>Pansexual</a></li>
                 <li><a href="./flag-pages/genders/transgender.html" class="blue pink white 5">
                     <img src="./images/genders/transgender.svg"
-                    alt="The transgender pride flag" width="200px">Transgender</a></li>
+                    alt="The transgender pride flag" width="200px"><br>Transgender</a></li>
             </ul>
         </section>
     </main>
