@@ -1,9 +1,55 @@
+main {
+    margin: 25px 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#searchInput, #stripes {
+    width: 100px;
+}
+
+input[type="checkbox"], button, #search {
+    margin-left: 15px;
+}
+
+#filters {
+    display: flex;
+    flex-direction: row;
+}
+
+#color-filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-right: 50px;
+}
+
+#stripes-filter {
+    display: flex;
+    flex-direction: column;
+}
+
 #flagsAndLabels {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 li {
     list-style: none;
+    padding: 10px;
+    display: flex;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+    object-fit: scale-down;
 }
