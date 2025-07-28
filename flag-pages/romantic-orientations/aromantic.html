@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aromantic | Pride Flag Search</title>
+    <link rel="stylesheet" href="../../css/page.css">
 </head>
 <body>
     <header>
@@ -18,14 +19,17 @@
         <!--TODO: add accessibility options-->
     </header>
     <main>
-        <h1>Aromantic</h1>
-        <img src="../../images/romantic-orientations/aromantic/aromantic.svg" alt="The aromantic pride flag"
-            width="250px">
+        <div id="heading">
+            <h1>Aromantic</h1>
+            <img src="../../images/romantic-orientations/aromantic/aromantic.svg" alt="The aromantic pride flag"
+                width="250px">
+            <div id="buttons">
+                <button id="expand">Expand all</button>
+                <button id="collapse">Collapse all</button>
+            </div>
+        </div>
 
-        <br>
-        <button id="expand">Expand all</button>
-        <button id="collapse">Collapse all</button>
-
+        <div id="info">
         <details open>
             <summary>Definiton</summary>
             <p>Disclaimer: People can experience identities in different ways. As such, people can identify with a
@@ -62,20 +66,25 @@
                 Visibility website (now defunct) around 2011, received criticism since it did not include the entire aromantic
                 spectrum, but included alloromantic people. Before the current design was adopted, the original
                 alternative that Cameron Whimsy proposed had a yellow stripe instead of a white stripe.</p>
-                
+            <div class="split-in-two">
+            <div> 
             <figure>
                 <img src="../../images/romantic-orientations/aromantic/original-aromantic.svg"
                 alt="The original aromantic pride flag" width="250px">
                 <figcaption>The original aromantic pride flag</figcaption>
             </figure>
+            </div>
 
+            <div>
             <figure>
                 <img src="../../images/romantic-orientations/aromantic/second-aromantic.svg"
                 alt="The second aromantic pride flag" width="250px">
                 <figcaption>Cameron Whimsy's original aromantic flag design</figcaption>
             </figure>
+            </div>
+            </div>
                 
-            <p>The each color of the aromantic flag has its own meaning (except the greens together represent one 
+            <p>Each color of the aromantic flag has its own meaning (except the greens together represent one 
                 thing, as do gray and black):</p>
             <ul>
                 <li>Green and light green: the aromantic spectrum</li>
@@ -89,6 +98,8 @@
 
         <details>
             <summary id="related-identities">Related Identities</summary>
+            <div class="split-in-two">
+            <div>
             <p>Aromantic is an umbrella term for the aromantic <a href="../../footer/faq.html#spectrum">spectrum</a>
                 ("aro-spec") and includes labels such as:</p>
             <ul>
@@ -110,7 +121,9 @@
                 <li>Recipromantic</li>
                 <!--TODO: add more if possible-->
             </ul>
+            </div>
 
+            <div>
             <p>Aromantic is similar to labels such as:</p>
             <ul>
                 <li><a href="../sexual-orientations/asexual.html">Asexual</a></li>
@@ -122,6 +135,9 @@
                 <!--TODO: get images and create pages for the following identities:-->
                 <li>Fluid</li>
                 <li>Queer</li>
+            </ul>
+            </div>
+            </div>
         </details>
 
         <details>
@@ -165,6 +181,7 @@
                     spectrum" page</a></li>
             </ul>
         </details>
+        </div>
         <a href="#" id="top-link">Back to top</a>
     </main>
     <footer>
