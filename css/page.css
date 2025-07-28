@@ -80,6 +80,10 @@ figcaption {
     align-items: flex-start;
 }
 
+.split-in-two div {
+    flex: 1;
+}
+
 .photo-desc {
     display: flex;
     flex-direction: row;
