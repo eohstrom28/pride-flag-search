@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ | Pride Flag Search</title>
+    <link rel="stylesheet" href="../css/page.css">
 </head>
 <body>
     <header>
@@ -18,12 +19,15 @@
         <!--TODO: add accessibility options-->
     </header>
     <main>
-        <h1>Frequently Asked Questions</h1>
+        <div id="heading">
+            <h1>Frequently Asked Questions</h1>
+            <div id="buttons">
+                <button id="expand">Expand all</button>
+                <button id="collapse">Collapse all</button>
+            </div>
+        </div>
 
-        <br>
-        <button id="expand">Expand all</button>
-        <button id="collapse">Collapse all</button>
-
+        <div id="info">
         <details>
             <summary>Why are pride flags and labels important?</summary>
             <ul>
@@ -93,7 +97,8 @@
             </ul>
         </details>
 
-        <p>The following questions were answered by Scottie (any pronouns), Director of a University LGBT Center:</p>
+        <p class="intro">The following questions were answered by Scottie (any pronouns), Director of a University
+            LGBT Center:</p>
 
         <details>
             <summary id="spectrum">What is a spectrum?</summary>
@@ -131,8 +136,8 @@
             </ul>
         </details>
 
-        <p>The following questions about allyship were answered by Andrew (he/him), Vice President of SPEAK at
-            Lehigh University:</p>
+        <p class="intro">The following questions about allyship were answered by Andrew (he/him), Vice President of
+            SPEAK at Lehigh University:</p>
 
         <details>
             <summary>How can I support someone who is coming out or questioning their identity?</summary>
@@ -253,6 +258,7 @@
                 <li>Use that knowledge to write to representatives, vote, and educate others.</li>
             </ul>
         </details>
+        </div>
         <a href="#" id="top-link">Back to top</a>
     </main>
     <footer>
