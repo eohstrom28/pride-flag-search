@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rainbow Flag | Pride Flag Search</title>
+    <link rel="stylesheet" href="../../css/page.css">
 </head>
 <body>
     <header>
@@ -18,15 +19,18 @@
         <!--TODO: add accessibility options-->
     </header>
     <main>
-        <h1>The Rainbow Flag</h1>
-        <img src="../../images/pride/rainbow.svg" alt="The rainbow pride flag" width="200px">
+        <div id="heading">
+            <h1>The Rainbow Flag</h1>
+            <img src="../../images/pride/rainbow.svg" alt="The rainbow pride flag" width="200px">
+            <!--TODO: Add link to gay page-->
+            <p>This page is separate from the <a href="">gay page</a>.</p>
+            <div id="buttons">
+                <button id="expand">Expand all</button>
+                <button id="collapse">Collapse all</button>
+            </div>
+        </div>
 
-        <!--TODO: link gay men flag to redirect people looking for it-->
-
-        <br>
-        <button id="expand">Expand all</button>
-        <button id="collapse">Collapse all</button>
-
+        <div id="info">
         <details open>
             <summary>The Original Pride Flag (the Gilbert Baker Pride Flag)</summary>
             <p>The original rainbow flag was created by Gilbert Baker in 1978. He created the flag for the Gay
@@ -36,7 +40,9 @@
                 Glenne McElhinney, Joe Duran, Paul Langlotz, and other friends and volunteers. It was first shown on
                 June 25, 1978 in the United Nations Plaza in San Francisco.</p>
             
-            <p>The each color of the Gilbert Baker pride flag has its own meaning:</p>
+            <div class="photo-desc">
+            <div>
+            <p>Each color of the Gilbert Baker pride flag has its own meaning:</p>
             <ul>
                 <li>Pink: sex</li>
                 <li>Red: life</li>
@@ -47,11 +53,13 @@
                 <li>Blue/indigo: serenity, harmony</li>
                 <li>Purple: spirit</li>
             </ul>
+            </div>
 
             <figure>
                 <img src="../../images/pride/original-rainbow.svg" alt="The Gilbert Baker pride flag" width="250px">
                 <figcaption>Gilbert Baker's original rainbow flag design</figcaption>
             </figure>
+            </div>
         </details>
 
         <details>
@@ -98,6 +106,7 @@
                     "A Brief History of the Rainbow Flag"</a></li>
             </ul>
         </details>
+        </div>
         <a href="#" id="top-link">Back to top</a>
     </main>
     <footer>
