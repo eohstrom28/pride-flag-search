@@ -51,13 +51,18 @@ main {
     align-items: center;
 }
 
+#heading p {
+    margin-bottom: 0;
+}
+
 #buttons {
+    margin-top: 20px;
     display: flex;
     gap: 20px;
 }
 
 #info {
-    margin: 50px 100px;
+    margin: 10px 100px 0;
 }
 
 summary {
@@ -66,6 +71,13 @@ summary {
 
 figcaption {
     margin-top: 5px;
+}
+
+.split-in-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .photo-desc {
