@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bisexual | Pride Flag Search</title>
+    <link rel="stylesheet" href="../../css/page.css">
 </head>
 <body>
     <header>
@@ -18,14 +19,17 @@
         <!--TODO: add accessibility options-->
     </header>
     <main>
-        <h1>Bisexual</h1>
-        <img src="../../images/sexual-orientations/bisexual/bisexual.svg" alt="The bisexual pride flag"
-            width="250px">
-        
-        <br>
-        <button id="expand">Expand all</button>
-        <button id="collapse">Collapse all</button>
+        <div id="heading">
+            <h1>Bisexual</h1>
+            <img src="../../images/sexual-orientations/bisexual/bisexual.svg" alt="The bisexual pride flag"
+                width="250px">
+            <div id="buttons">
+                <button id="expand">Expand all</button>
+                <button id="collapse">Collapse all</button>
+            </div>
+        </div>
 
+        <div id="info">
         <details open>
             <summary>Definiton</summary>
             <p>Disclaimer: People can experience identities in different ways. As such, people can identify with a
@@ -66,7 +70,7 @@
                 <figcaption>The biangles, created by Liz Nania</figcaption>
             </figure>
 
-            <p>The each color of the bisexual flag has its own meaning:</p>
+            <p>Each color of the bisexual flag has its own meaning:</p>
             <ul>
                 <li>Pink: attraction to the same gender and similar genders</li>
                 <li>Purple: attraction to multiple/all genders (the overlap of pink and blue)</li>
@@ -76,6 +80,8 @@
 
         <details>
             <summary id="related-identities">Related Identities</summary>
+            <div class="split-in-two">
+            <div>
             <p>Bisexual is an umbrella term for identities that involve attraction to multiple genders (bisexual+
                 or bi+) and includes labels such as:</p>
             <ul>
@@ -84,7 +90,9 @@
                 <li><a href="">Polysexual</a></li>
                 <!--TODO: add more if possible-->
             </ul>
+            </div>
             
+            <div>
             <p>Bisexual is similar to labels such as:</p>
             <ul>
                 <!--TODO: get image and create page for the following identity:-->
@@ -96,6 +104,9 @@
                 <!--TODO: get images and create pages for the following identities:-->
                 <li>Fluid</li>
                 <li>Queer</li>
+            </ul>
+            </div>
+            </div>
         </details>
 
         <details>
@@ -126,6 +137,7 @@
                 <li><a href="https://en.wikipedia.org/wiki/Bisexual_flag">Wikipedia's "Bisexual flag" page</a></li>
             </ul>
         </details>
+        </div>
         <a href="#" id="top-link">Back to top</a>
     </main>
     <footer>
