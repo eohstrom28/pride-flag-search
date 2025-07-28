@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asexual | Pride Flag Search</title>
+    <link rel="stylesheet" href="../../css/page.css">
 </head>
 <body>
     <header>
@@ -18,13 +19,16 @@
         <!--TODO: add accessibility options-->
     </header>
     <main>
-        <h1>Asexual</h1>
-        <img src="../../images/sexual-orientations/asexual/asexual.svg" alt="The asexual pride flag" width="250px">
-        
-        <br>
-        <button id="expand">Expand all</button>
-        <button id="collapse">Collapse all</button>
+        <div id="heading">
+            <h1>Asexual</h1>
+            <img src="../../images/sexual-orientations/asexual/asexual.svg" alt="The asexual pride flag" width="250px">
+            <div id="buttons">
+                <button id="expand">Expand all</button>
+                <button id="collapse">Collapse all</button>
+            </div>
+        </div>
 
+        <div id="info">
         <details open>
             <summary>Definiton</summary>
             <p>Disclaimer: People can experience identities in different ways. As such, people can identify with a
@@ -49,6 +53,14 @@
                 feelings about them (<a href="https://queerdom.fandom.com/wiki/Sex-Ambivalent">sex-ambivalent</a>).</p>
             
             <p>People who are not asexual are allosexual.</p>
+
+            <p>The following quote is from Alex (it/they), who is asexual:</p>
+            <p>“Being asexual is, for me, a lack of sexual attraction. When I tell people this the first thing they
+                say is usually 'oh, you'll grow out of it.' Thanks, but that isn't really helpful. I don't need to
+                be reassured that one day I'll break free from this strange, sexless affliction and blossom into the
+                normal person I was meant to be. Being asexual is part of who I am, it's not some missing piece that I
+                need to discover, and being able to identify with that label gives me the tools to affirm who I
+                am.”</p>
         </details>
 
         <details>
@@ -61,21 +73,23 @@
             
             <figure>
                 <img src="../../images/sexual-orientations/asexual/AVEN-triangle.svg" alt="The AVEN triangle"
-                    width="250px">
+                    width="150px">
                 <figcaption>The AVEN triangle, the logo for The Asexual Visibility & Education Network</figcaption>
             </figure>
 
-            <p>The each color of the asexual flag has its own meaning:</p>
+            <p>Each color of the asexual flag has its own meaning:</p>
             <ul>
                 <li>Black: asexuals</li>
                 <li>Gray: graysexuals and demisexuals</li>
                 <li>White: non-asexual partners and allies</li>
-                <li>Purple: the community</li>
+                <li>Purple: the asexual community</li>
             </ul>
         </details>
 
         <details>
             <summary id="related-identities">Related Identities</summary>
+            <div class="split-in-two">
+            <div>
             <p>Asexual is an umbrella term for the asexual <a href="../../footer/faq.html#spectrum">spectrum</a>
                 ("ace-spec") and includes labels such as:</p>
             <ul>
@@ -100,7 +114,9 @@
                 <li>Requissexual</li>
                 <!--TODO: add more if possible-->
             </ul>
+            </div>
 
+            <div>
             <p>Asexual is similar to labels such as:</p>
             <ul>
                 <li><a href="../romantic-orientations/aromantic.html">Aromantic</a></li>
@@ -112,6 +128,9 @@
                 <!--TODO: get images and create pages for the following identities:-->
                 <li>Fluid</li>
                 <li>Queer</li>
+            </ul>
+            </div>
+            </div>
         </details>
 
         <details>
@@ -154,6 +173,7 @@
                     spectrum" page</a></li>
             </ul>
         </details>
+        </div>
         <a href="#" id="top-link">Back to top</a>
     </main>
     <footer>
