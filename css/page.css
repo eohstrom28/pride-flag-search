@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #D3D3FF;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav {
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+header li, footer li {
+    list-style: none;
+    display: flex;
+}
+
+main {
+    margin: 20px;
+}
+
+#heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    gap: 20px;
+}
+
+#info {
+    margin: 50px 100px;
+}
+
+summary {
+    padding: 5px;
+}
+
+figcaption {
+    margin-top: 5px;
+}
+
+.photo-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+.photo-desc figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-desc figcaption {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+#top-link {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
