@@ -88,10 +88,11 @@ img {
     object-fit: scale-down;
 }
 
-#top-link {
+#flagsAndLabels div {
     display: flex;
     align-items: flex-end;
-    padding: 0px 54px;
+    padding: 0px 50px;
+    width: 120px;
 }
 
 footer nav {
