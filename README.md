@@ -1,6 +1,7 @@
 # pride-flag-search
 
 ## Image Attribution
+- ["5-striped New Gay Male Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg) by gayflagblog, public domain
 - ["Agender pride flag.svg"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg) by Salem Fontana, public domain
 - ["Agender pride flag agender info.svg"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag_agender_info.svg) by agender.info, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Aromantic flag (original).svg"](https://commons.wikimedia.org/wiki/File:Aromantic_flag_(original).svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
@@ -37,3 +38,4 @@
 - ["Transgender Pride flag.svg"](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg) by Monica Helms, vectorized by Dlloyd, public domain
 - ["Two-Spirit Flag.svg"](https://commons.wikimedia.org/wiki/File:Two-Spirit_Flag.svg) by Dragon401k, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 - ["Unlabeled Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Unlabeled_Pride_Flag.svg) (unknown author), licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Vincian flag (original).svg"](https://commons.wikimedia.org/wiki/File:Vincian_flag_(original).svg) by Mod Hermy, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
