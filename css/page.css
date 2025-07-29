@@ -89,6 +89,10 @@ figcaption {
     flex: 1;
 }
 
+#redirect {
+    margin: 20px 100px;
+}
+
 /* For about page */
 h3 {
     margin-top: 50px;
