@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +10,8 @@ header, footer {
     background-color: #D3D3FF;
     margin: 0;
     padding: 10px 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 nav {
@@ -42,6 +45,7 @@ header li, footer li {
 
 main {
     margin: 20px;
+    flex-grow: 1;
 }
 
 #heading, h2, h3 {
