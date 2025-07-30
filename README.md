@@ -31,6 +31,7 @@
 - ["Lesbian Pride pink flag.svg"](https://commons.wikimedia.org/wiki/File:Lesbian_Pride_pink_flag.svg) by AnonMoos, public domain
 - ["Lesbian pride flag 2018.svg"](https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg) by L ke, public domain
 - ["LGBTQ+ rainbow flag Quasar "Progress" variant.svg"](https://commons.wikimedia.org/wiki/File:LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg) by Daniel Quasar, vectorized by Paul2520, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- ["Lipstick lesbian Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Lipstick_lesbian_Pride_Flag.svg) by Natalie McCray, vectorized by xles, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 - ["New Gay Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:New_Gay_Pride_Flag.svg) by gayflagblog, public domain
 - ["Non-binary enby pride flag.svg"](https://commons.wikimedia.org/wiki/File:Non-binary_enby_pride_flag.svg) by Amousey, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Omnisexuality flag.svg"](https://commons.wikimedia.org/wiki/File:Omnisexuality_flag.svg) by pastelroswell, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
