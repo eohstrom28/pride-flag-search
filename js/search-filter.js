@@ -57,6 +57,9 @@ function search() {
 
     // Applies the stripe filter to the search query
     applyStripesFilter();
+
+    //Makes sure the back to top link is always displayed
+    flagItems[flagItems.length - 1].style.display = "";
 }
 
 // Contains the currently checked colors
@@ -110,6 +113,8 @@ function filterByColor(color, colorChecked) {
         // Applies the current stripe filter
         applyStripesFilter();
     }
+    //Makes sure the back to top link is always displayed
+    flagItems[flagItems.length - 1].style.display = "";
 }
 
 // Selects the uncheckAll button
@@ -199,6 +204,8 @@ function applyStripesFilter() {
             flagItems[i].style.display = "none";
         }
     }
+    //Makes sure the back to top link is always displayed
+    flagItems[flagItems.length - 1].style.display = "";
 }
 
 // Removes the stripe filter
