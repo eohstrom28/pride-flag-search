@@ -1,46 +1,46 @@
 # pride-flag-search
 
 ## Image Attribution
-- ["5-striped New Gay Male Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg) by gayflagblog, public domain
-- ["Agender pride flag.svg"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg) by Salem Fontana, public domain
-- ["Agender pride flag agender info.svg"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag_agender_info.svg) by agender.info, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Aromantic flag (original).svg"](https://commons.wikimedia.org/wiki/File:Aromantic_flag_(original).svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Aromantic Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Aromantic_Pride_Flag.svg) by Cameron Whimsey, public domain
-- ["Aroace flag.svg"](https://commons.wikimedia.org/wiki/File:Aroace_flag.svg), by Jace "Aroaes", vectorized by Rummskartoffel, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Asexual Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Asexual_Pride_Flag.svg) by AVEN, vectorized by AnonMoos, public domain
-- ["AVEN Triangle.svg"](https://commons.wikimedia.org/wiki/File:AVEN_Triangle.svg) by bristrek87, vectorized by Magajukur2, creative commons
-- ["Bi triangles.svg"](https://commons.wikimedia.org/wiki/File:Bi_triangles.svg) by Liz Nania, vectorized by Fibonacci, public domain
-- ["Bigender flag.svg"](https://commons.wikimedia.org/wiki/File:Bigender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Bisexual Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Bisexual_Pride_Flag.svg) by Michael Page, public domain
-- ["Demiboy Flag.svg"](https://commons.wikimedia.org/wiki/File:Demiboy_Flag.svg) by Trichromat, public domain
-- ["Demigirl Flag.svg"](https://commons.wikimedia.org/wiki/File:Demigirl_Flag.svg) by Misc, public domain
-- ["Deminonbinary flag.svg"](https://commons.wikimedia.org/wiki/File:Deminonbinary_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Demiromantic Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Demiromantic_Pride_Flag.svg) by MarcoSnail, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
-- ["Demisexual Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Demisexual_Pride_Flag.svg) by Vimopu, vectorized by AnonMoos, public domain
-- ["Gay flag 7.svg"](https://commons.wikimedia.org/wiki/File:Gay_flag_7.svg) by Fibonacci, public domain
-- ["Gay flag 8.svg"](https://commons.wikimedia.org/wiki/File:Gay_flag_8.svg) by Gilbert Baker, vectorized by Fibonacci, public domain
-- ["Gay Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg) by Guanaco, public domain
-- ["Genderfluidity Pride-Flag.svg"](https://commons.wikimedia.org/wiki/File:Genderfluidity_Pride-Flag.svg) by JJ Pole., McLennonSon, and GarethPW, public domain
-- ["Genderqueer Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Genderqueer_Pride_Flag.svg) by Marilyn Roxie and McLennonSon, public domain
-- ["Grey asexuality flag.svg"](https://commons.wikimedia.org/wiki/File:Grey_asexuality_flag.svg) by Kautr, public domain
-- ["Gray-aromantic Pride Flag.png"](https://commons.wikimedia.org/wiki/File:Gray-aromantic_Pride_Flag.png) by Enbysapphics, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) / Converted to SVG file
-- ["Intersex Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Intersex_Pride_Flag.svg) by Morgan Carpenter, SVG file simplification by AnonMoos, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Intersex-inclusive pride flag.svg"](https://commons.wikimedia.org/wiki/File:Intersex-inclusive_pride_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Labrys Lesbian Flag.svg](https://commons.wikimedia.org/wiki/File:Labrys_Lesbian_Flag.svg) by Thespoondragon, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Lesbian Pride Flag 2019.svg"](https://commons.wikimedia.org/wiki/File:Lesbian_Pride_Flag_2019.svg) by Tmmoney, remade by AnonMoos, public domain
-- ["Lesbian Pride pink flag.svg"](https://commons.wikimedia.org/wiki/File:Lesbian_Pride_pink_flag.svg) by AnonMoos, public domain
-- ["Lesbian pride flag 2018.svg"](https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg) by L ke, public domain
-- ["LGBTQ+ rainbow flag Quasar "Progress" variant.svg"](https://commons.wikimedia.org/wiki/File:LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg) by Daniel Quasar, vectorized by Paul2520, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- ["Lipstick lesbian Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Lipstick_lesbian_Pride_Flag.svg) by Natalie McCray, vectorized by xles, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
-- ["New Gay Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:New_Gay_Pride_Flag.svg) by gayflagblog, public domain
-- ["Non-binary enby pride flag.svg"](https://commons.wikimedia.org/wiki/File:Non-binary_enby_pride_flag.svg) by Amousey, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Omnisexuality flag.svg"](https://commons.wikimedia.org/wiki/File:Omnisexuality_flag.svg) by pastelroswell, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
-- ["Pangender flag.svg"](https://commons.wikimedia.org/wiki/File:Pangender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Pansexuality Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Pansexuality_Pride_Flag.svg) by KiwiNeko14, public domain
-- ["Polysexuality Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Polysexuality_Pride_Flag.svg) by McLennonSon, public domain
-- ["Sapphic flag 2.svg"](https://commons.wikimedia.org/wiki/File:Sapphic_flag_2.svg) by Lydia, colors revised by Maya Kern, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Second Aromantic Flag.svg"](https://commons.wikimedia.org/wiki/File:Second_Aromantic_Flag.svg) by Cameron Whimsy, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Transgender Pride flag.svg"](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg) by Monica Helms, vectorized by Dlloyd, public domain
-- ["Two-Spirit Flag.svg"](https://commons.wikimedia.org/wiki/File:Two-Spirit_Flag.svg) by Dragon401k, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
-- ["Unlabeled Pride Flag.svg"](https://commons.wikimedia.org/wiki/File:Unlabeled_Pride_Flag.svg) (unknown author), licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- ["Vincian flag (original).svg"](https://commons.wikimedia.org/wiki/File:Vincian_flag_(original).svg) by Mod Hermy, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Agender flag"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg) by Salem Fontana, public domain
+- ["Aromantic flag"](https://commons.wikimedia.org/wiki/File:Aromantic_Pride_Flag.svg) by Cameron Whimsey, public domain
+- ["Asexual flag"](https://commons.wikimedia.org/wiki/File:Asexual_Pride_Flag.svg) by AVEN, SVG by AnonMoos, public domain
+- ["AVEN Triangle"](https://commons.wikimedia.org/wiki/File:AVEN_Triangle.svg) by bristrek87, vectorization by Magajukur2, public domain
+- ["Bisexual flag"](https://commons.wikimedia.org/wiki/File:Bisexual_Pride_Flag.svg) by Michael Page, public domain
+- ["Demiboy flag"](https://commons.wikimedia.org/wiki/File:Demiboy_Flag.svg) by Trichromat, public domain
+- ["Demigirl flag"](https://commons.wikimedia.org/wiki/File:Demigirl_Flag.svg) by Misc, public domain
+- ["Deminonbinary flag"](https://commons.wikimedia.org/wiki/File:Deminonbinary_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Demiromantic flag"](https://commons.wikimedia.org/wiki/File:Demiromantic_Pride_Flag.svg) by MarcoSnail, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Demisexual flag"](https://commons.wikimedia.org/wiki/File:Demisexual_Pride_Flag.svg) by Vimopu, vector by AnonMoos, public domain
+- ["flag of the aromantic-asexual community"](https://commons.wikimedia.org/wiki/File:Aroace_flag.svg), by Jace "Aroaes", vector by Rummskartoffel, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Genderfluid flag"](https://commons.wikimedia.org/wiki/File:Genderfluidity_Pride-Flag.svg) by JJ Pole., McLennonSon, and GarethPW, public domain
+- ["Genderqueer Flag"](https://commons.wikimedia.org/wiki/File:Genderqueer_Pride_Flag.svg) by Marilyn Roxie and McLennonSon, public domain
+- ["Gray-aromantic Pride Flag"](https://commons.wikimedia.org/wiki/File:Gray-aromantic_Pride_Flag.png) by Enbysapphics, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) / Converted to SVG file
+- ["Graysexual flag"](https://commons.wikimedia.org/wiki/File:Grey_asexuality_flag.svg) by Kautr, public domain
+- ["Intersex flag"](https://commons.wikimedia.org/wiki/File:Intersex_Pride_Flag.svg) by Morgan Carpenter, SVG file simplification by AnonMoos, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Intersex-inclusive Progress Pride flag"](https://commons.wikimedia.org/wiki/File:Intersex-inclusive_pride_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Labrys lesbian flag](https://commons.wikimedia.org/wiki/File:Labrys_Lesbian_Flag.svg) by Thespoondragon, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Lesbian flag inspired by one of Sappho's poems"](https://commons.wikimedia.org/wiki/File:Sapphic_flag_2.svg) by Lydia, colors revised by Maya Kern, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Lesbian flag introduced in 2018"](https://commons.wikimedia.org/wiki/File:Lesbian_pride_flag_2018.svg), vectorized by L ke, public domain
+- ["Lesbian Pride pink flag"](https://commons.wikimedia.org/wiki/File:Lesbian_Pride_pink_flag.svg), SVG by AnonMoos, public domain
+- ["Lipstick Lesbian flag"](https://commons.wikimedia.org/wiki/File:Lipstick_lesbian_Pride_Flag.svg) by Natalie McCray, SVG by xles, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["New gay male pride flag"](https://commons.wikimedia.org/wiki/File:New_Gay_Pride_Flag.svg) by gayflagblog, public domain
+- ["Non-Binary pride flag"](https://commons.wikimedia.org/wiki/File:Non-binary_enby_pride_flag.svg) by Amousey, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Omnisexual flag"](https://commons.wikimedia.org/wiki/File:Omnisexuality_flag.svg) by pastelroswell, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Original eight-striped LGBTQ flag"](https://commons.wikimedia.org/wiki/File:Gay_flag_8.svg) by Gilbert Baker, vector graphics by Fibonacci, public domain
+- ["Pangender flag"](https://commons.wikimedia.org/wiki/File:Pangender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Pansexuality pride flag"](https://commons.wikimedia.org/wiki/File:Pansexuality_Pride_Flag.svg) by Tumblr blog PansexualFlag, SVG by KiwiNeko14, public domain
+- ["Polysexual flag"](https://commons.wikimedia.org/wiki/File:Polysexuality_Pride_Flag.svg) by McLennonSon, public domain
+- ["predecessor to the current aromantic flag"](https://commons.wikimedia.org/wiki/File:Second_Aromantic_Flag.svg) by Cameron Whimsy, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Progress Pride flag"](https://commons.wikimedia.org/wiki/File:LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg) by Daniel Quasar, SVG by Paul2520, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- ["seven-stripe bigender flag"](https://commons.wikimedia.org/wiki/File:Bigender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Seven-striped LGBT flag"](https://commons.wikimedia.org/wiki/File:Gay_flag_7.svg) by Fibonacci, public domain
+- ["Simplified gay (MLM) flag"](https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg) by gayflagblog, public domain
+- ["Simplified lesbian flag"](https://commons.wikimedia.org/wiki/File:Lesbian_Pride_Flag_2019.svg) by Tmmoney, remade by AnonMoos, public domain
+- ["Six-striped LGBT flag"](https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg) by Guanaco and subsequent editors, public domain
+- ["The biangles"](https://commons.wikimedia.org/wiki/File:Bi_triangles.svg) by Liz Nania, SVG by Fibonacci, public domain
+- ["The four-stripe agender flag"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag_agender_info.svg) by agender.info, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["The original proposed aromantic flag"](https://commons.wikimedia.org/wiki/File:Aromantic_flag_(original).svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["the original vincian flag"](https://commons.wikimedia.org/wiki/File:Vincian_flag_(original).svg) by Mod Hermy, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Transgender flag"](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg) by Monica Helms, SVG by Dlloyd, public domain
+- ["Two-Spirit flag"](https://commons.wikimedia.org/wiki/File:Two-Spirit_Flag.svg) by Dragon401k, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Unlabeled Pride Flag"](https://commons.wikimedia.org/wiki/File:Unlabeled_Pride_Flag.svg), licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
