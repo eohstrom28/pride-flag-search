@@ -101,6 +101,10 @@ img {
     width: 120px;
 }
 
+#attributions {
+    text-align: center;
+}
+
 footer nav {
     display: flex;
     justify-content: space-around;
