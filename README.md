@@ -1,6 +1,7 @@
 # pride-flag-search
 
 ## Image Attribution
+- ["2017 rainbow flag"](https://commons.wikimedia.org/wiki/File:2017_rainbow_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Agender flag"](https://commons.wikimedia.org/wiki/File:Agender_pride_flag.svg) by Salem Fontana, public domain
 - ["Aromantic flag"](https://commons.wikimedia.org/wiki/File:Aromantic_Pride_Flag.svg) by Cameron Whimsey, public domain
 - ["Asexual flag"](https://commons.wikimedia.org/wiki/File:Asexual_Pride_Flag.svg) by AVEN, SVG by AnonMoos, public domain
@@ -29,6 +30,7 @@
 - ["Original eight-striped LGBTQ flag"](https://commons.wikimedia.org/wiki/File:Gay_flag_8.svg) by Gilbert Baker, vector graphics by Fibonacci, public domain
 - ["Pangender flag"](https://commons.wikimedia.org/wiki/File:Pangender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Pansexuality pride flag"](https://commons.wikimedia.org/wiki/File:Pansexuality_Pride_Flag.svg) by Tumblr blog PansexualFlag, SVG by KiwiNeko14, public domain
+- ["Philadelphia Pride Flag"](https://commons.wikimedia.org/wiki/File:Philadelphia_Pride_Flag.svg) by Philadelphia City Council and Tierney, public domain
 - ["Polysexual flag"](https://commons.wikimedia.org/wiki/File:Polysexuality_Pride_Flag.svg) by McLennonSon, public domain
 - ["predecessor to the current aromantic flag"](https://commons.wikimedia.org/wiki/File:Second_Aromantic_Flag.svg) by Cameron Whimsy, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Progress Pride flag"](https://commons.wikimedia.org/wiki/File:LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg) by Daniel Quasar, SVG by Paul2520, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
