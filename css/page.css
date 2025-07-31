@@ -87,6 +87,7 @@ figcaption {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    gap: 20px;
 }
 
 .split-in-two div {
