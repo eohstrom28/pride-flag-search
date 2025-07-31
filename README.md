@@ -32,6 +32,8 @@
 - ["Polysexual flag"](https://commons.wikimedia.org/wiki/File:Polysexuality_Pride_Flag.svg) by McLennonSon, public domain
 - ["predecessor to the current aromantic flag"](https://commons.wikimedia.org/wiki/File:Second_Aromantic_Flag.svg) by Cameron Whimsy, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Progress Pride flag"](https://commons.wikimedia.org/wiki/File:LGBTQ%2B_rainbow_flag_Quasar_%22Progress%22_variant.svg) by Daniel Quasar, SVG by Paul2520, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- ["Queer Flag"](https://commons.wikimedia.org/wiki/File:Queer_Flag.svg) by pastelmemer, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Queer Pride flag"](https://commons.wikimedia.org/wiki/File:Queer_Pride_flag_chevron_design.svg) by Kautr, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["seven-stripe bigender flag"](https://commons.wikimedia.org/wiki/File:Bigender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Seven-striped LGBT flag"](https://commons.wikimedia.org/wiki/File:Gay_flag_7.svg) by Fibonacci, public domain
 - ["Simplified gay (MLM) flag"](https://commons.wikimedia.org/wiki/File:5-striped_New_Gay_Male_Pride_Flag.svg) by gayflagblog, public domain
