@@ -13,6 +13,15 @@ const allFlags = [agender, asexual, nonbinary, pansexual, transgender];
 
 // Create objects for each flag/identity to display to the user
 
+// ul containing the flags and their labels
+const flagList = document.getElementById("flagsAndLabels");
+
+// li's contained within the flagList ul
+const flagItems = flagList.getElementsByTagName("li");
+
+// Contains the current flagItem's a element
+let flagLink;
+
 // Selects the search input element
 const searchBar = document.getElementById("searchInput");
 // Runs the search function when a key is pressed
@@ -26,17 +35,8 @@ function search() {
     // Contains the current search query in uppercase letters
     let filteredSearchQuery = searchQuery.value.toUpperCase();
 
-    // ul containing the flags and their labels
-    let flagList = document.getElementById("flagsAndLabels");
-
-    // li's contained within the flagList ul
-    let flagItems = flagList.getElementsByTagName("li");
-    
-    // Contains the current flagItem's a element
-    let flagLink;
-
     // Contains flagLink's text content
-    let flagName;
+    let flagName; 
 
     // Iterate through each flagItem member to see which names match the search query
     for (let i = 0; i < flagItems.length; i++) {
@@ -75,16 +75,8 @@ for (let i = 0; i < checkboxColors.length; i++) {
     element.addEventListener("click", () => filterByColor(checkboxColors[i], element));
 }
 
+//Executes when a color checkbox is clicked
 function filterByColor(color, colorChecked) {
-    // ul containing the flags and their labels
-    let flagList = document.getElementById("flagsAndLabels");
-
-    // li's contained within the flagList ul
-    let flagItems = flagList.getElementsByTagName("li");
-    
-    // Contains the current flagItem's a element
-    let flagLink;
-
     // Executes if the checkbox is checked
     if (colorChecked.checked == true) {
         // Add color to filterColors
@@ -179,21 +171,10 @@ function applyStripesFilter() {
     // Holds the current value of the stripes input element
     let numberStripes = stripes.value;
 
-
     // Does nothing if the current stripes input is empty
     if (numberStripes == "") {
         return;
     }
-
-    // ul containing the flags and their labels
-    let flagList = document.getElementById("flagsAndLabels");
-
-    // li's contained within the flagList ul
-    let flagItems = flagList.getElementsByTagName("li");
-    
-    // Contains the current flagItem's a element
-    let flagLink;
-
 
     // Iterates through each flag item
     for (let i = 0; i < flagItems.length; i++) {
@@ -210,12 +191,6 @@ function applyStripesFilter() {
 
 // Removes the stripe filter
 function resetStripesFilter() {
-    // ul containing the flags and their labels
-    let flagList = document.getElementById("flagsAndLabels");
-
-    // li's contained within the flagList ul
-    let flagItems = flagList.getElementsByTagName("li");
-
     // Puts all flags back into the display
     for (let i = 0; i < flagItems.length; i++) {
         flagItems[i].style.display = "";
