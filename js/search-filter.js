@@ -71,8 +71,8 @@ const checkboxColors = ["white", "pink", "red", "orange", "yellow", "green", "bl
 
 // Create an event listener for every color checkbox to call filterByColor on click
 for (let i = 0; i < checkboxColors.length; i++) {
-    let element = document.getElementById(checkboxColors[i]);
-    element.addEventListener("click", () => filterByColor(checkboxColors[i], element));
+    let checkbox = document.getElementById(checkboxColors[i]);
+    checkbox.addEventListener("click", () => filterByColor(checkboxColors[i], checkbox));
 }
 
 //Executes when a color checkbox is clicked
@@ -110,10 +110,10 @@ function filterByColor(color, colorChecked) {
 }
 
 // Selects the uncheckAll button
-const uncheckButton = document.getElementById("uncheckAll");
+const resetColorsButton = document.getElementById("resetColors");
 
 // Executes the resetFilters function when uncheckButton is clicked
-uncheckButton.addEventListener("click", () => {
+resetColorsButton.addEventListener("click", () => {
     resetColorFilters(true);
 });
 
@@ -131,12 +131,12 @@ function resetColorFilters(deleteAll) {
         // Empties the filterColors set
         filterColors.clear();
         
-        // Selects all checkboxes
-        const checkBoxes = document.getElementsByTagName("input");
+        // Selects all input elements
+        const inputs = document.getElementsByTagName("input");
         // Unchecks all the checkboxes
-        for (let i = 0; i < checkBoxes.length; i++) {
-            if (checkBoxes[i].type == "checkbox") {
-                checkBoxes[i].checked = false;
+        for (let i = 0; i < inputs.length; i++) {
+            if (inputs[i].type == "checkbox") {
+                inputs[i].checked = false;
             }
         }
     }
@@ -146,16 +146,19 @@ function resetColorFilters(deleteAll) {
 }
 
 // Selects stripes input element
-const stripes = document.getElementById("stripes");
+const stripesInput = document.getElementById("stripes");
 // Runs filterByStripes when input is changed
-stripes.addEventListener("input", filterByStripes);
+stripesInput.addEventListener("input", filterByStripes);
+
+// Holds the value of the stripes input element
+let numberOfStripes;
 
 function filterByStripes() {
-    // Holds the current value of the stripes input element
-    let numberStripes = stripes.value;
+    // Updates to be current value of the stripes input element
+    numberOfStripes = stripes.value;
 
     // Resets the stripes filter if there is no input
-    if (numberStripes == "") {
+    if (numberOfStripes == "") {
         resetStripesFilter();
     }
     // Applies the stripes filter if there is an input
@@ -168,20 +171,17 @@ function filterByStripes() {
 
 // Applies the current stripes filter
 function applyStripesFilter() {
-    // Holds the current value of the stripes input element
-    let numberStripes = stripes.value;
-
     // Does nothing if the current stripes input is empty
-    if (numberStripes == "") {
+    if (numberOfStripes == "") {
         return;
     }
 
-    // Iterates through each flag item
+// Iterates through each flag item
     for (let i = 0; i < flagItems.length; i++) {
         flagLink = flagItems[i].getElementsByTagName("a")[0];
         
         // Hides the flag item if it does not have the specified stripe number
-        if (!flagLink.classList.contains(numberStripes)) {
+        if (!flagLink.classList.contains(numberOfStripes)) {
             flagItems[i].style.display = "none";
         }
     }
