@@ -58,6 +58,9 @@ function search() {
     // Applies the stripe filter to the search query
     applyStripesFilter();
 
+    // Applies the shape filter to the search query
+    applyShapeFilter();
+
     //Makes sure the back to top link is always displayed
     flagItems[flagItems.length - 1].style.display = "";
 }
@@ -151,8 +154,9 @@ const stripesInput = document.getElementById("stripes");
 stripesInput.addEventListener("input", filterByStripes);
 
 // Holds the value of the stripes input element
-let numberOfStripes;
+let numberOfStripes = "";
 
+// Executes when the stripes input is changed
 function filterByStripes() {
     // Updates to be current value of the stripes input element
     numberOfStripes = stripes.value;
@@ -176,7 +180,7 @@ function applyStripesFilter() {
         return;
     }
 
-// Iterates through each flag item
+    // Iterates through each flag item
     for (let i = 0; i < flagItems.length; i++) {
         flagLink = flagItems[i].getElementsByTagName("a")[0];
         
@@ -195,7 +199,56 @@ function resetStripesFilter() {
     for (let i = 0; i < flagItems.length; i++) {
         flagItems[i].style.display = "";
     }
-    
+}
+
+// Selects the shapes select element
+const shapesSelect = document.getElementById("shapes");
+// Runs filterByShape when an option is selected
+shapesSelect.addEventListener("change", filterByShape);
+
+// Holds the current value of the selected shape option
+let currentShape;
+
+// Executes when the shapes filter is changed
+function filterByShape() {
+    // Updates the currentShape
+    currentShape = shapesSelect.value;
+
+    // Resets the shape filter
+    resetShapeFilter();
+
+    // Applies the shape filter if it isn't empty
+    if (currentShape != "") {
+        applyShapeFilter();
+    }
+
     // Puts all flags back in the display as long as they match the search query and filters
     search();
+}
+
+// Applies the current shape filter
+function applyShapeFilter() {
+    // Does nothing if the current shape value is empty
+    if (currentShape == "") {
+        return;
+    }
+
+    // Iterates through each flag item
+    for (let i = 0; i < flagItems.length; i++) {
+        flagLink = flagItems[i].getElementsByTagName("a")[0];
+        
+        // Hides the flag item if it does not have the specified shape
+        if (!flagLink.classList.contains(currentShape)) {
+            flagItems[i].style.display = "none";
+        }
+    }
+    //Makes sure the back to top link is always displayed
+    flagItems[flagItems.length - 1].style.display = "";
+}
+
+function resetShapeFilter() {
+    // Puts all flags back into the display
+    for (let i = 0; i < flagItems.length; i++) {
+        flagItems[i].style.display = "";
+    }
 }
