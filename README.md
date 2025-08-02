@@ -12,7 +12,8 @@
 - ["Deminonbinary flag"](https://commons.wikimedia.org/wiki/File:Deminonbinary_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 - ["Demiromantic flag"](https://commons.wikimedia.org/wiki/File:Demiromantic_Pride_Flag.svg) by MarcoSnail, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 - ["Demisexual flag"](https://commons.wikimedia.org/wiki/File:Demisexual_Pride_Flag.svg) by Vimopu, vector by AnonMoos, public domain
-- ["flag of the aromantic-asexual community"](https://commons.wikimedia.org/wiki/File:Aroace_flag.svg), by Jace "Aroaes", vector by Rummskartoffel, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["flag of the aromantic-asexual community"](https://commons.wikimedia.org/wiki/File:Aroace_flag.svg) by Jace "Aroaes", vector by Rummskartoffel, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Former flag of intersex people"](https://commons.wikimedia.org/wiki/File:Early_Intersex_Flag.svg) by McLennonSon, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 - ["Genderfluid flag"](https://commons.wikimedia.org/wiki/File:Genderfluidity_Pride-Flag.svg) by JJ Pole., McLennonSon, and GarethPW, public domain
 - ["Genderqueer Flag"](https://commons.wikimedia.org/wiki/File:Genderqueer_Pride_Flag.svg) by Marilyn Roxie and McLennonSon, public domain
 - ["Gray-aromantic Pride Flag"](https://commons.wikimedia.org/wiki/File:Gray-aromantic_Pride_Flag.png) by Enbysapphics, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) / Converted to SVG file
