@@ -56,13 +56,23 @@
                 <label for="gray">Gray</label>
                 <input type="checkbox" id="black">
                 <label for="black">Black</label>
-                <button id="uncheckAll">Remove all color filters</button>
+                <button id="resetColors">Remove all color filters</button>
             </div>
 
             <br>
             <div id="stripes-filter">
                 <label for="stripes">Stripes: </label>
                 <input type="number" id="stripes" placeholder="number" min="0" max="9">
+            </div>
+
+            <div id="shapes-filter">
+                <label for="shapes">Shapes: </label>
+                <select name="filter-by-shape" id="shapes">
+                    <option value="">Pick a shape</option>
+                    <option value="chevron">Chevron (v-shape)</option>
+                    <option value="labrys">Labrys (axe)</option>
+                    <option value="kiss">Kiss mark</option>
+                </select>
             </div>
             </div>
 
@@ -127,10 +137,10 @@
                 <li><a href="./flag-pages/sexual-orientations/lesbian.html" class="pink white 7">
                     <img src="./images/sexual-orientations/lesbian/pink-lesbian.svg"
                     alt="The pink lesbian pride flag" width="200px"><br>Lesbian (old)</a></li>
-                <li><a href="./flag-pages/sexual-orientations/lesbian.html" class="pink white 7">
+                <li><a href="./flag-pages/sexual-orientations/lesbian.html" class="pink white 7 kiss">
                     <img src="./images/sexual-orientations/lesbian/lipstick-lesbian.svg"
                     alt="The lipstick lesbian pride flag" width="200px"><br>Lesbian (old)</a></li>
-                <li><a href="./flag-pages/sexual-orientations/lesbian.html" class="purple black white 0">
+                <li><a href="./flag-pages/sexual-orientations/lesbian.html" class="purple black white 0 labrys">
                     <img src="./images/sexual-orientations/lesbian/labrys.svg"
                     alt="The labrys lesbian pride flag" width="200px"><br>Lesbian (old)</a></li>
                 <li><a href="./flag-pages/genders/nonbinary.html" class="yellow white purple black 4">
@@ -139,7 +149,7 @@
                 <li><a href="./flag-pages/sexual-orientations/pansexual.html" class="pink yellow blue 3">
                     <img src="./images/sexual-orientations/pansexual.svg"
                     alt="The pansexual pride flag" width="200px"><br>Pansexual</a></li>
-                <li><a href="./flag-pages/queer.html" class="purple white 0 2 3 5">
+                <li><a href="./flag-pages/queer.html" class="purple white 0 2 3 5 chevron">
                     <img src="./images/queer/chevron-queer.svg"
                     alt="The chevron queer pride flag" width="200px"><br>Queer</a></li>
                 <li><a href="./flag-pages/queer.html" class="black blue green white orange red pink 9">
