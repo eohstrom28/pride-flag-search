@@ -61,6 +61,9 @@ function search() {
     // Applies the shape filter to the search query
     applyShapeFilter();
 
+    // Applies the current category filter
+    applyCategoryFilter();
+
     //Makes sure the back to top link is always displayed
     flagItems[flagItems.length - 1].style.display = "";
 }
@@ -102,11 +105,7 @@ function filterByColor(color, colorChecked) {
         // Resets the filters
         resetColorFilters(false);
 
-        // Applies all current color filters
-        applyColorFilters();
-
-        // Applies the current stripe filter
-        applyStripesFilter();
+        search();
     }
     //Makes sure the back to top link is always displayed
     flagItems[flagItems.length - 1].style.display = "";
@@ -207,7 +206,7 @@ const shapesSelect = document.getElementById("shapes");
 shapesSelect.addEventListener("change", filterByShape);
 
 // Holds the current value of the selected shape option
-let currentShape;
+let currentShape = "";
 
 // Executes when the shapes filter is changed
 function filterByShape() {
@@ -247,6 +246,58 @@ function applyShapeFilter() {
 }
 
 function resetShapeFilter() {
+    // Puts all flags back into the display
+    for (let i = 0; i < flagItems.length; i++) {
+        flagItems[i].style.display = "";
+    }
+}
+
+// Selects the category select element
+const categorySelect = document.getElementById("category");
+// Runs filterByCategory when an option is selected
+categorySelect.addEventListener("change", filterByCategory);
+
+// Holds the current value of the selected category option
+let currentCategory = "";
+
+// Executes when the category filter is changed
+function filterByCategory() {
+    // Updates the currentCategory
+    currentCategory = categorySelect.value;
+
+    // Resets the category filter
+    resetCategoryFilter();
+
+    // Applies the category filter if it isn't empty
+    if (currentCategory != "") {
+        applyCategoryFilter();
+    }
+
+    // Puts all flags back in the display as long as they match the search query and filters
+    search();
+}
+
+// Applies the current category filter
+function applyCategoryFilter() {
+    // Does nothing if the current category value is empty
+    if (currentCategory == "") {
+        return;
+    }
+
+    // Iterates through each flag item
+    for (let i = 0; i < flagItems.length; i++) {
+        flagLink = flagItems[i].getElementsByTagName("a")[0];
+        
+        // Hides the flag item if it does not have the specified category
+        if (!flagLink.classList.contains(currentCategory)) {
+            flagItems[i].style.display = "none";
+        }
+    }
+    //Makes sure the back to top link is always displayed
+    flagItems[flagItems.length - 1].style.display = "";
+}
+
+function resetCategoryFilter() {
     // Puts all flags back into the display
     for (let i = 0; i < flagItems.length; i++) {
         flagItems[i].style.display = "";
