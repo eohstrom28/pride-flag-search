@@ -48,6 +48,10 @@ main {
     flex-grow: 1;
 }
 
+h1 {
+    text-align: center;
+}
+
 section {
     display: flex;
     flex-direction: column;
