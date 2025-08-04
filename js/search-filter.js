@@ -111,7 +111,7 @@ function filterByColor(color, colorChecked) {
     flagItems[flagItems.length - 1].style.display = "";
 }
 
-// Selects the uncheckAll button
+// Selects the resetColors button
 const resetColorsButton = document.getElementById("resetColors");
 
 // Executes the resetFilters function when uncheckButton is clicked
@@ -301,5 +301,53 @@ function resetCategoryFilter() {
     // Puts all flags back into the display
     for (let i = 0; i < flagItems.length; i++) {
         flagItems[i].style.display = "";
+    }
+}
+
+// Selects the show/hide more filters button
+const moreFiltersButton = document.getElementById("more-filters-button");
+// Runs showMoreFilters when the show/hide more filters button is clicked
+moreFiltersButton.addEventListener("click", showMoreFilters);
+
+// Selects the div with the stripes, shape, and category filters
+const moreFilters = document.getElementById("more-filters");
+// Hides the stripes, shape, and category filters from display when the page loads
+moreFilters.style.display = "none";
+
+// Executes when the show/hide more filters button is clicked
+function showMoreFilters() {
+    // Stores the current display value of the more-filters div
+    let moreFiltersDisplay = moreFilters.style.display;
+
+    // If currently hidden, more-filters div is shown
+    if (moreFiltersDisplay == "none") {
+        moreFilters.style.display = "";
+        // Changes the more-filters button text to say "Hide" instead of "Show"
+        moreFiltersButton.innerHTML = "Hide more filters";
+    }
+    // If currently shown, hides more-filters div and resets those filters
+    else {
+        moreFilters.style.display = "none";
+
+        // Resets and removes stripes filter
+        resetStripesFilter();
+        stripesInput.value = "";
+        numberOfStripes = "";
+
+        // Resets and removes shape filter
+        resetShapeFilter();
+        shapesSelect.value = "";
+        currentShape = "";
+
+        // Resets and removes category filter
+        resetCategoryFilter();
+        categorySelect.value = "";
+        currentCategory = "";
+
+        // Applies search query and color filters
+        search();
+
+        // Changes the more-filters button text to say "Show" instead of "Hide"
+        moreFiltersButton.innerHTML = "Show more filters";
     }
 }
