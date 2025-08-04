@@ -63,14 +63,17 @@ section {
     margin-left: 5px;
 }
 
-input[type="checkbox"], button, #search {
+input[type="checkbox"], #resetColors, #search {
     margin-left: 15px;
 }
 
 #filters {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
+    line-height: 1.5;
+    height: 50px;
 }
 
 #color-filters {
@@ -81,11 +84,21 @@ input[type="checkbox"], button, #search {
     width: 500px;
 }
 
+button {
+    padding: 10px;
+    height: fit-content;
+}
+
+#more-filters-button {
+    width: 130px;
+}
+
 #flagsAndLabels {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    padding: 0;
 }
 
 #flagsAndLabels li {
