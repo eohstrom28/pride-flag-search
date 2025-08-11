@@ -10,6 +10,8 @@
 - ["Asexual flag"](https://commons.wikimedia.org/wiki/File:Asexual_Pride_Flag.svg) by AVEN, SVG by AnonMoos, public domain
 - ["AVEN Triangle"](https://commons.wikimedia.org/wiki/File:AVEN_Triangle.svg) by bristrek87, vectorization by Magajukur2, public domain
 - ["Bigender flag"](https://commons.wikimedia.org/wiki/File:Bigender_flag.svg) by Nikki, licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Bigender flag.png"](https://commons.wikimedia.org/wiki/File:Bigender_flag.png) by Pradejoniensis, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+- ["Bigender pride flag"](https://commons.wikimedia.org/wiki/File:Bigender_pride_flag.png) by Pastelkittyqq, public domain
 - ["Bisexual flag"](https://commons.wikimedia.org/wiki/File:Bisexual_Pride_Flag.svg) by Michael Page, public domain
 - ["Demiboy flag"](https://commons.wikimedia.org/wiki/File:Demiboy_Flag.svg) by Trichromat, public domain
 - ["Demigirl flag"](https://commons.wikimedia.org/wiki/File:Demigirl_Flag.svg) by Misc, public domain
