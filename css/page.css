@@ -59,6 +59,15 @@ main {
     margin-bottom: 0;
 }
 
+/* For if there are multiple flags in a page's heading*/
+#heading-flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
 #buttons {
     margin-top: 20px;
     display: flex;
