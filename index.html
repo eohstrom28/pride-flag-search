@@ -90,16 +90,21 @@
                     </div>
                 </fieldset>
 
-                <div id="category-filter">
-                    <label for="category">Category: </label>
-                    <select name="filter-by-category" id="category">
-                        <option value="">Pick a category</option>
-                        <option value="gender">Genders</option>
-                        <option value="romantic">Romantic orientations</option>
-                        <option value="sexual">Sexualities</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
+                <fieldset id="category-filter">
+                    <legend>Category: </legend>
+                    <div id="category">
+                        <input type="radio" name="category" id="none" checked>
+                        <label for="none">None</label>
+                        <input type="radio" name="category" id="gender">
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="category" id="romantic">
+                        <label for="romantic">Romantic</label>
+                        <input type="radio" name="category" id="sexual">
+                        <label for="sexual">Sexuality</label>
+                        <input type="radio" name="category" id="other">
+                        <label for="other">Other</label>
+                    </div>
+                </fieldset>
             </div>
             </div>
 

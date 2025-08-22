@@ -263,18 +263,29 @@ function resetShapeFilter() {
     }
 }
 
-// Selects the category select element
-const categorySelect = document.getElementById("category");
-// Runs filterByCategory when an option is selected
-categorySelect.addEventListener("change", filterByCategory);
+// Selects the category div
+const categoryDiv = document.getElementById("category");
+// Runs filterByCategory when a radio button is selected
+categoryDiv.addEventListener("change", filterByCategory);
 
-// Holds the current value of the selected category option
+// Holds an array of the category radio buttons
+const categoryInputs = categoryDiv.getElementsByTagName("input");
+
+// Holds the current value of the selected category radio button
 let currentCategory = "";
 
 // Executes when the category filter is changed
 function filterByCategory() {
     // Updates the currentCategory
-    currentCategory = categorySelect.value;
+    for (let i = 0; i < categoryInputs.length; i++) {
+        if (categoryInputs[i].checked == true) {
+            currentCategory = categoryInputs[i].id;
+        }
+    }
+
+    if (currentCategory == "none") {
+        currentCategory = "";
+    }
 
     // Resets the category filter
     resetCategoryFilter();
@@ -347,12 +358,12 @@ function showMoreFilters() {
 
         // Resets and removes shape filter
         resetShapeFilter();
-        shapesSelect.value = "";
+        shapeInputs[0].checked = true;
         currentShape = "";
 
         // Resets and removes category filter
         resetCategoryFilter();
-        categorySelect.value = "";
+        categoryInputs[0].checked = true;
         currentCategory = "";
 
         // Applies search query and color filters
