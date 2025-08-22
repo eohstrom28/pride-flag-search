@@ -55,6 +55,14 @@ function search() {
     flagItems[flagItems.length - 1].style.display = "";
 }
 
+const clearSearchButton = document.getElementById("clear-search-query");
+clearSearchButton.addEventListener("click", clearSearchQuery);
+
+function clearSearchQuery() {
+    searchBar.value = "";
+    search();
+}
+
 // Contains the currently checked colors
 let filterColors = new Set();
 
