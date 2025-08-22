@@ -20,8 +20,10 @@ nav {
     align-items: center;
 }
 
-header nav {
-    justify-content: space-between;
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 18px;
 }
 
@@ -32,7 +34,7 @@ nav ul {
     gap: 50px;
 }
 
-nav a {
+header a, footer a {
     text-decoration: none;
     color: black;
     padding: 10px;
