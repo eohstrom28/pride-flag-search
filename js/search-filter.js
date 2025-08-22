@@ -200,18 +200,29 @@ function resetStripesFilter() {
     }
 }
 
-// Selects the shapes select element
-const shapesSelect = document.getElementById("shapes");
-// Runs filterByShape when an option is selected
-shapesSelect.addEventListener("change", filterByShape);
+// Selects the shapes div element
+const shapesDiv = document.getElementById("shapes");
+// Runs filterByShape when a radio button is selected
+shapesDiv.addEventListener("change", filterByShape);
 
-// Holds the current value of the selected shape option
+// Holds an array of the shape radio buttons
+const shapeInputs = shapesDiv.getElementsByTagName("input");
+
+// Holds the current value of the selected shape radio button
 let currentShape = "";
 
 // Executes when the shapes filter is changed
 function filterByShape() {
     // Updates the currentShape
-    currentShape = shapesSelect.value;
+    for (let i = 0; i < shapeInputs.length; i++) {
+        if (shapeInputs[i].checked == true) {
+            currentShape = shapeInputs[i].id;
+        }
+    }
+
+    if (currentShape == "none") {
+        currentShape = "";
+    }
 
     // Resets the shape filter
     resetShapeFilter();

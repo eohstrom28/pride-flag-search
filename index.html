@@ -72,17 +72,23 @@
                     <input type="number" id="stripes" placeholder="number" min="0" max="9">
                 </div>
 
-                <div id="shapes-filter">
-                    <label for="shapes">Shapes: </label>
-                    <select name="filter-by-shape" id="shapes">
-                        <option value="">Pick a shape</option>
-                        <option value="chevron">Chevron (v-shape)</option>
-                        <option value="circle">Circle</option>
-                        <option value="labrys">Labrys (axe)</option>
-                        <option value="kiss">Kiss mark</option>
-                        <option value="triangle">Triangle</option>
-                    </select>
-                </div>
+                <fieldset id="shapes-filter">
+                    <legend>Shapes: </legend>
+                    <div id="shapes">
+                        <input type="radio" name="shape" id="none" checked>
+                        <label for="none">None</label>
+                        <input type="radio" name="shape" id="chevron">
+                        <label for="chevron">Chevron (v-shape)</label>
+                        <input type="radio" name="shape" id="circle">
+                        <label for="circle">Circle</label>
+                        <input type="radio" name="shape" id="labrys">
+                        <label for="labrys">Labrys (axe)</label>
+                        <input type="radio" name="shape" id="kiss">
+                        <label for="kiss">Kiss mark</label>
+                        <input type="radio" name="shape" id="triangle">
+                        <label for="triangle">Triangle</label>
+                    </div>
+                </fieldset>
 
                 <div id="category-filter">
                     <label for="category">Category: </label>
