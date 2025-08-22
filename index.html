@@ -30,40 +30,62 @@
             <p>Instructions: To use the Pride Flag Search, you can type in an identity with the search bar. You can
                 also filter by flag colors, number of stripes, shapes, and category. (Note: A chevron or v-shape
                 does not count as a stripe, but it does count as a shape.)</p>
+
+            <div id="search-and-filters">
             <div id="search">
                 <label for="searchInput">Search for an identity:</label>
                 <input type="text" id="searchInput" placeholder="asexual">
             </div>
             
-            <br>
             <div id="filters">
             <div id="color-filters">
-                <input type="checkbox" id="white">
-                <label for="white">White</label>
-                <input type="checkbox" id="pink">
-                <label for="pink">Pink</label>
-                <input type="checkbox" id="red">
-                <label for="red">Red</label>
-                <input type="checkbox" id="orange">
-                <label for="orange">Orange</label>
-                <input type="checkbox" id="yellow">
-                <label for="yellow">Yellow</label>
-                <input type="checkbox" id="green">
-                <label for="green">Green</label>
-                <input type="checkbox" id="blue">
-                <label for="blue">Blue</label>
-                <input type="checkbox" id="purple">
-                <label for="purple">Purple</label>
-                <input type="checkbox" id="brown">
-                <label for="brown">Brown</label>
-                <input type="checkbox" id="gray">
-                <label for="gray">Gray</label>
-                <input type="checkbox" id="black">
-                <label for="black">Black</label>
+                <div>
+                    <input type="checkbox" id="white">
+                    <label for="white">White</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="pink">
+                    <label for="pink">Pink</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="red">
+                    <label for="red">Red</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="orange">
+                    <label for="orange">Orange</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="yellow">
+                    <label for="yellow">Yellow</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="green">
+                    <label for="green">Green</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="blue">
+                    <label for="blue">Blue</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="purple">
+                    <label for="purple">Purple</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="brown">
+                    <label for="brown">Brown</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="gray">
+                    <label for="gray">Gray</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="black">
+                    <label for="black">Black</label>
+                </div>
                 <button id="resetColors">Remove all color filters</button>
             </div>
 
-            <br>
             <button id="more-filters-button">Show more filters</button>
 
             <div id="more-filters">
@@ -75,36 +97,59 @@
                 <fieldset id="shapes-filter">
                     <legend>Shapes: </legend>
                     <div id="shapes">
-                        <input type="radio" name="shape" id="none" checked>
-                        <label for="none">None</label>
-                        <input type="radio" name="shape" id="chevron">
-                        <label for="chevron">Chevron (v-shape)</label>
-                        <input type="radio" name="shape" id="circle">
-                        <label for="circle">Circle</label>
-                        <input type="radio" name="shape" id="labrys">
-                        <label for="labrys">Labrys (axe)</label>
-                        <input type="radio" name="shape" id="kiss">
-                        <label for="kiss">Kiss mark</label>
-                        <input type="radio" name="shape" id="triangle">
-                        <label for="triangle">Triangle</label>
+                        <div>
+                            <input type="radio" name="shape" id="none" checked>
+                            <label for="none">None</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="shape" id="chevron">
+                            <label for="chevron">Chevron (v-shape)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="shape" id="circle">
+                            <label for="circle">Circle</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="shape" id="labrys">
+                            <label for="labrys">Labrys (axe)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="shape" id="kiss">
+                            <label for="kiss">Kiss mark</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="shape" id="triangle">
+                            <label for="triangle">Triangle</label>
+                        </div>
                     </div>
                 </fieldset>
 
                 <fieldset id="category-filter">
                     <legend>Category: </legend>
                     <div id="category">
-                        <input type="radio" name="category" id="none" checked>
-                        <label for="none">None</label>
-                        <input type="radio" name="category" id="gender">
-                        <label for="gender">Gender</label>
-                        <input type="radio" name="category" id="romantic">
-                        <label for="romantic">Romantic</label>
-                        <input type="radio" name="category" id="sexual">
-                        <label for="sexual">Sexuality</label>
-                        <input type="radio" name="category" id="other">
-                        <label for="other">Other</label>
+                        <div>
+                            <input type="radio" name="category" id="none" checked>
+                            <label for="none">None</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="category" id="gender">
+                            <label for="gender">Gender</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="category" id="romantic">
+                            <label for="romantic">Romantic</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="category" id="sexual">
+                            <label for="sexual">Sexuality</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="category" id="other">
+                            <label for="other">Other</label>
+                        </div>
                     </div>
                 </fieldset>
+            </div>
             </div>
             </div>
 

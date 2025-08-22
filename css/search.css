@@ -58,6 +58,16 @@ section {
     justify-content: center;
 }
 
+#search-and-filters, #search, #color-filters, #stripes-filter, #shapes-filter, #category-filter {
+    margin: 10px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #searchInput, #stripes {
     width: 100px;
     margin-left: 5px;
@@ -69,11 +79,10 @@ input[type="checkbox"], #resetColors, #search {
 
 #filters {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
     line-height: 1.5;
-    height: 50px;
 }
 
 #color-filters {
@@ -81,7 +90,6 @@ input[type="checkbox"], #resetColors, #search {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 500px;
 }
 
 button {
@@ -91,6 +99,16 @@ button {
 
 #more-filters-button {
     width: 130px;
+}
+
+#more-filters {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+fieldset {
+    width: 175px;
 }
 
 #flagsAndLabels {
