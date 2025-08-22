@@ -33,8 +33,8 @@
 
             <div id="search-and-filters">
             <div id="search">
-                <label for="searchInput">Search for an identity:</label>
-                <input type="text" id="searchInput" placeholder="asexual">
+                <label for="search-input">Search for an identity:</label>
+                <input type="text" id="search-input" placeholder="asexual">
             </div>
             
             <div id="filters">
@@ -83,7 +83,7 @@
                     <input type="checkbox" id="black">
                     <label for="black">Black</label>
                 </div>
-                <button id="resetColors">Remove all color filters</button>
+                <button id="reset-colors">Remove all color filters</button>
             </div>
 
             <button id="more-filters-button">Show more filters</button>
@@ -98,8 +98,8 @@
                     <legend>Shapes: </legend>
                     <div id="shapes">
                         <div>
-                            <input type="radio" name="shape" id="none" checked>
-                            <label for="none">None</label>
+                            <input type="radio" name="shape" id="no-shape" checked>
+                            <label for="no-shape">None</label>
                         </div>
                         <div>
                             <input type="radio" name="shape" id="chevron">
@@ -128,8 +128,8 @@
                     <legend>Category: </legend>
                     <div id="category">
                         <div>
-                            <input type="radio" name="category" id="none" checked>
-                            <label for="none">None</label>
+                            <input type="radio" name="category" id="no-category" checked>
+                            <label for="no-category">None</label>
                         </div>
                         <div>
                             <input type="radio" name="category" id="gender">
@@ -149,11 +149,13 @@
                         </div>
                     </div>
                 </fieldset>
+
+                <button id="remove-all-filters">Remove all filters</button>
             </div>
             </div>
             </div>
 
-            <ul id="flagsAndLabels">
+            <ul id="flags-and-labels">
                 <li><a href="./flag-pages/pride/rainbow.html"
                     class="red orange yellow green blue purple 6 other">
                     <img src="./images/pride/rainbow.svg"

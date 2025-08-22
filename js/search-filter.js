@@ -1,20 +1,7 @@
-// Create arrays to hold each flag's name, image path, and page path
-const agender = ["agender", "./images/gender/agender.svg", "./flag-pages/agender.html"];
-const asexual = ["asexual", "./images/sexual-attraction/asexual.svg", "./flag-pages/asexual.html"];
-
-// Add bisexual, 8-stripe, 7-stripe, and 6-stripe pride flags
-
-const nonbinary = ["nonbinary", "./images/gender/nonbinary.svg", "./flag-pages/nonbinary.html"]
-const pansexual = ["pansexual", "./images/sexual-attraction/pansexual.svg", "./flag-pages/pansexual.html"]
-const transgender = ["transgender", "./images/gender/transgender.svg", "./flag-pages/transgender.html"];
-
-// Create array with an index representing each flag/identity
-const allFlags = [agender, asexual, nonbinary, pansexual, transgender];
-
 // Create objects for each flag/identity to display to the user
 
 // ul containing the flags and their labels
-const flagList = document.getElementById("flagsAndLabels");
+const flagList = document.getElementById("flags-and-labels");
 
 // li's contained within the flagList ul
 const flagItems = flagList.getElementsByTagName("li");
@@ -23,14 +10,14 @@ const flagItems = flagList.getElementsByTagName("li");
 let flagLink;
 
 // Selects the search input element
-const searchBar = document.getElementById("searchInput");
+const searchBar = document.getElementById("search-input");
 // Runs the search function when a key is pressed
 searchBar.addEventListener("keyup", search);
 
 // Executes when the search input is changed
 function search() {
     // Creates a selector for the search input
-    let searchQuery = document.getElementById("searchInput");
+    let searchQuery = document.getElementById("search-input");
 
     // Contains the current search query in uppercase letters
     let filteredSearchQuery = searchQuery.value.toUpperCase();
@@ -112,7 +99,7 @@ function filterByColor(color, colorChecked) {
 }
 
 // Selects the resetColors button
-const resetColorsButton = document.getElementById("resetColors");
+const resetColorsButton = document.getElementById("reset-colors");
 
 // Executes the resetFilters function when uncheckButton is clicked
 resetColorsButton.addEventListener("click", () => {
@@ -220,7 +207,7 @@ function filterByShape() {
         }
     }
 
-    if (currentShape == "none") {
+    if (currentShape == "no-shape") {
         currentShape = "";
     }
 
@@ -283,7 +270,7 @@ function filterByCategory() {
         }
     }
 
-    if (currentCategory == "none") {
+    if (currentCategory == "no-category") {
         currentCategory = "";
     }
 
@@ -372,4 +359,25 @@ function showMoreFilters() {
         // Changes the more-filters button text to say "Show" instead of "Hide"
         moreFiltersButton.innerHTML = "Show more filters";
     }
+}
+
+const removeAllFiltersButton = document.getElementById("remove-all-filters");
+removeAllFiltersButton.addEventListener("click", removeAllFilters);
+
+function removeAllFilters() {
+    resetColorFilters(true);
+
+    resetStripesFilter();
+    stripesInput.value = "";
+    numberOfStripes = "";
+
+    resetShapeFilter();
+    shapeInputs[0].checked = true;
+    currentShape = "";
+
+    resetCategoryFilter();
+    categoryInputs[0].checked = true;
+    currentCategory = "";
+
+    search();
 }

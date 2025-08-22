@@ -68,12 +68,12 @@ section {
     align-items: center;
 }
 
-#searchInput, #stripes {
+#search-input, #stripes {
     width: 100px;
     margin-left: 5px;
 }
 
-input[type="checkbox"], #resetColors, #search {
+input[type="checkbox"], #reset-colors, #search {
     margin-left: 15px;
 }
 
@@ -88,6 +88,7 @@ input[type="checkbox"], #resetColors, #search {
 #color-filters {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -103,15 +104,17 @@ button {
 
 #more-filters {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 fieldset {
     width: 175px;
 }
 
-#flagsAndLabels {
+#flags-and-labels {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -119,7 +122,7 @@ fieldset {
     padding: 0;
 }
 
-#flagsAndLabels li {
+#flags-and-labels li {
     padding: 10px;
 }
 
@@ -129,7 +132,7 @@ img {
     object-fit: scale-down;
 }
 
-#flagsAndLabels div {
+#flags-and-labels div {
     display: flex;
     align-items: flex-end;
     padding: 0px 50px;
