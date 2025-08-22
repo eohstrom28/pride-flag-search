@@ -106,7 +106,8 @@ figcaption {
 }
 
 #redirect {
-    margin: 20px 100px;
+    margin: 20px 200px;
+    text-align: center;
 }
 
 /* For about page */
