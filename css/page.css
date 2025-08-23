@@ -105,9 +105,15 @@ figcaption {
     flex: 1;
 }
 
+/* For links to other pages in page headings */
 #redirect {
     margin: 20px 200px;
     text-align: center;
+}
+
+/* For resources and DIY flags pages */
+h2 {
+    margin-top: 50px;
 }
 
 /* For about page */
@@ -118,6 +124,15 @@ h3 {
 /* For FAQ page */
 .intro {
     margin-top: 50px;
+}
+
+/* For DIY flag page */
+#subtitle {
+    text-align: center;
+}
+
+.spacing {
+    margin-top: 20px;
 }
 
 .photo-desc {
