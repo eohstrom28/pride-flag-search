@@ -57,6 +57,10 @@ main {
     align-items: center;
 }
 
+.border {
+    border: 1px solid black;
+}
+
 #heading p {
     margin-bottom: 0;
 }
