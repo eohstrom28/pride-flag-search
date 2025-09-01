@@ -48,7 +48,7 @@
 - ["Simplified lesbian flag"](https://commons.wikimedia.org/wiki/File:Lesbian_Pride_Flag_2019.svg) by Tmmoney, remade by AnonMoos, public domain
 - ["Six-striped LGBT flag"](https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg) by Guanaco and subsequent editors, public domain
 - ["The biangles"](https://commons.wikimedia.org/wiki/File:Bi_triangles.svg) by Liz Nania, SVG by Fibonacci, public domain
-- ["Vincian flag (original)"](https://commons.wikimedia.org/wiki/File:Vincian_flag_(original).svg) by Mod Hermy, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 - ["Transgender flag"](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg) by Monica Helms, SVG by Dlloyd, public domain
 - ["Two-Spirit flag"](https://commons.wikimedia.org/wiki/File:Two-Spirit_Flag.svg) by Dragon401k, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 - ["Unlabeled Pride Flag"](https://commons.wikimedia.org/wiki/File:Unlabeled_Pride_Flag.svg), licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- ["Vincian flag (original)"](https://commons.wikimedia.org/wiki/File:Vincian_flag_(original).svg) by Mod Hermy, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
